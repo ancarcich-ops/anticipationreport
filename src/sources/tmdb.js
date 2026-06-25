@@ -9,8 +9,10 @@
 const TMDB_BASE = 'https://api.themoviedb.org/3';
 export const TMDB_IMAGE_BASE = 'https://image.tmdb.org/t/p';
 
+const USER_AGENT = 'AnticipationReport/1.0 (+https://github.com/ancarcich-ops/anticipationreport)';
+
 export function hasTmdbCredentials() {
-  return Boolean(process.env.TMDB_API_KEY);
+  return Boolean(process.env.TMDB_API_KEY && process.env.TMDB_API_KEY.trim());
 }
 
 function posterUrl(path, size = 'w500') {
@@ -22,12 +24,17 @@ function backdropUrl(path, size = 'w780') {
 
 async function tmdbGet(path) {
   const sep = path.includes('?') ? '&' : '?';
-  const res = await fetch(`${TMDB_BASE}${path}${sep}api_key=${process.env.TMDB_API_KEY}`, {
-    headers: { 'Content-Type': 'application/json' },
+  const key = (process.env.TMDB_API_KEY || '').trim();
+  const res = await fetch(`${TMDB_BASE}${path}${sep}api_key=${key}`, {
+    headers: { 'Content-Type': 'application/json', 'User-Agent': USER_AGENT },
     signal: AbortSignal.timeout(20000),
   });
   if (!res.ok) {
-    throw new Error(`TMDB request failed (${res.status} ${res.statusText}) for ${path}`);
+    const body = await res.text().catch(() => '');
+    throw new Error(
+      `TMDB request failed (${res.status} ${res.statusText}) for ${path}. ` +
+      `Response: ${body.slice(0, 200).replace(/\s+/g, ' ')}`
+    );
   }
   return res.json();
 }

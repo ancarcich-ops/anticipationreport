@@ -8,21 +8,36 @@
 
 const TRAKT_BASE = 'https://api.trakt.tv';
 
+// Trakt is fronted by Cloudflare, which rejects requests with no User-Agent
+// (a 403 that looks like an auth failure but isn't). A descriptive UA fixes it.
+const USER_AGENT = 'AnticipationReport/1.0 (+https://github.com/ancarcich-ops/anticipationreport)';
+
 export function hasTraktCredentials() {
-  return Boolean(process.env.TRAKT_CLIENT_ID);
+  return Boolean(process.env.TRAKT_CLIENT_ID && process.env.TRAKT_CLIENT_ID.trim());
 }
 
 async function traktGet(path) {
   const res = await fetch(`${TRAKT_BASE}${path}`, {
     headers: {
       'Content-Type': 'application/json',
+      'User-Agent': USER_AGENT,
       'trakt-api-version': '2',
-      'trakt-api-key': process.env.TRAKT_CLIENT_ID,
+      // .trim() guards against a stray newline if the key was pasted/stored with one.
+      'trakt-api-key': (process.env.TRAKT_CLIENT_ID || '').trim(),
     },
     signal: AbortSignal.timeout(20000),
   });
   if (!res.ok) {
-    throw new Error(`Trakt request failed (${res.status} ${res.statusText}) for ${path}`);
+    // Include a snippet of the body so the logs say *why* (Cloudflare HTML vs
+    // a Trakt JSON error like "invalid API key") instead of a bare status.
+    const body = await res.text().catch(() => '');
+    const hint = res.status === 403
+      ? ' — 403 usually means a missing User-Agent (Cloudflare) or an invalid trakt-api-key.'
+      : '';
+    throw new Error(
+      `Trakt request failed (${res.status} ${res.statusText}) for ${path}.${hint} ` +
+      `Response: ${body.slice(0, 300).replace(/\s+/g, ' ')}`
+    );
   }
   return res.json();
 }
