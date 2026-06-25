@@ -7,23 +7,70 @@ const weekSelect = el('weekSelect');
 const refreshBtn = el('refreshBtn');
 
 let currentWeek = null;
+// Static mode = no running Express server (e.g. deployed to Vercel). Detected
+// the first time the /api endpoint isn't reachable; we then read the committed
+// JSON snapshots directly and compute deltas in the browser.
+let staticMode = false;
 
 async function loadReport(week) {
   reportEl.innerHTML = '<div class="loading">Loading…</div>';
   try {
-    const res = await fetch(week ? `/api/report/${week}` : '/api/report');
-    if (!res.ok) {
-      const { error } = await res.json().catch(() => ({}));
-      throw new Error(error || `Server responded ${res.status}`);
-    }
-    const data = await res.json();
+    const data = staticMode ? await loadViaStatic(week) : await loadAuto(week);
     currentWeek = data.week;
     renderMeta(data);
     renderWeeks(data.availableWeeks, data.week);
     renderShows(data.shows);
+    refreshBtn.style.display = staticMode ? 'none' : '';
   } catch (err) {
     reportEl.innerHTML = `<div class="error">Couldn’t load the report: ${escapeHtml(err.message)}</div>`;
   }
+}
+
+// Try the API first; if it's not there, switch to static mode for good.
+async function loadAuto(week) {
+  try {
+    const res = await fetch(week ? `/api/report/${week}` : '/api/report');
+    if (!res.ok) throw new Error(`api ${res.status}`);
+    const ct = res.headers.get('content-type') || '';
+    if (!ct.includes('application/json')) throw new Error('api returned non-json');
+    return await res.json();
+  } catch {
+    staticMode = true;
+    return loadViaStatic(week);
+  }
+}
+
+// Read snapshots straight from /data and compute deltas client-side. Mirrors
+// the server's logic so the report looks identical with or without a backend.
+async function loadViaStatic(week) {
+  const manifest = await (await fetch('/data/index.json')).json();
+  const weeks = manifest.weeks || [];
+  if (!weeks.length) throw new Error('No report data has been generated yet.');
+
+  const target = week && weeks.includes(week) ? week : weeks.at(-1);
+  const idx = weeks.indexOf(target);
+  const current = await fetchSnapshot(target);
+  const previous = idx > 0 ? await fetchSnapshot(weeks[idx - 1]) : null;
+
+  const prevRank = new Map();
+  if (previous) for (const s of previous.shows) prevRank.set(keyFor(s), s.rank);
+
+  const shows = current.shows.map((s) => {
+    const pr = prevRank.get(keyFor(s));
+    return { ...s, previousRank: pr ?? null, delta: pr == null ? null : pr - s.rank, isNew: previous ? pr == null : false };
+  });
+
+  return { ...current, shows, availableWeeks: weeks, comparedTo: previous ? weeks[idx - 1] : null };
+}
+
+async function fetchSnapshot(week) {
+  const res = await fetch(`/data/snapshots/${week}.json`);
+  if (!res.ok) throw new Error(`Missing snapshot for ${week}`);
+  return res.json();
+}
+
+function keyFor(show) {
+  return show.ids?.trakt ?? show.ids?.tmdb ?? show.title;
 }
 
 function renderMeta(data) {

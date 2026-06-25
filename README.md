@@ -81,6 +81,33 @@ restarts and redeploys.
 
 ---
 
+## Deploy to Vercel (free, auto-updating)
+
+Vercel doesn't run an always-on server, so the dashboard deploys as a **static
+site** and the **GitHub Action** keeps the data fresh. Every time the Action
+commits a new weekly snapshot, Vercel auto-redeploys — so the live site updates
+itself with no server to babysit. (Locally, `npm start` still runs the full
+Express version with the live Refresh button.)
+
+**One-time setup:**
+
+1. Push this repo to GitHub (already done if you cloned it from there).
+2. Add your keys as repository **secrets** so the weekly Action can pull live
+   data: GitHub repo → **Settings → Secrets and variables → Actions → New
+   repository secret** → add `TRAKT_CLIENT_ID` and `TMDB_API_KEY`.
+3. Go to <https://vercel.com> → **Add New… → Project** → import this repo.
+   The included `vercel.json` already configures it (static, serves `public/`).
+   Click **Deploy**. That's it — you get a public URL.
+4. (Optional) Trigger the first live data pull now: GitHub repo → **Actions →
+   Update Anticipation Report → Run workflow**. Vercel redeploys automatically
+   when it commits.
+
+Because Vercel is connected to the repo, the weekly Action commit (Mondays)
+triggers a fresh deploy on its own. No Vercel environment variables are needed —
+the keys live only in GitHub.
+
+---
+
 ## How it works
 
 ```

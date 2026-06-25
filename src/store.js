@@ -1,15 +1,20 @@
 // Snapshot storage + week-over-week history.
 //
-// Each refresh writes one JSON snapshot to data/snapshots/<week>.json.
-// Keeping them as plain files (committed to git) means the history — and the
-// rank-change arrows that depend on it — survive restarts and redeploys.
+// Each refresh writes one JSON snapshot to public/data/snapshots/<week>.json
+// plus a public/data/index.json manifest. They live under public/ so a static
+// host (e.g. Vercel) can serve both the dashboard and its data, and so the
+// browser can read them directly when there's no running server. Keeping them
+// committed to git means the history — and the rank-change arrows that depend
+// on it — survive restarts and redeploys.
 
 import { promises as fs } from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-export const SNAPSHOT_DIR = path.join(__dirname, '..', 'data', 'snapshots');
+export const DATA_DIR = path.join(__dirname, '..', 'public', 'data');
+export const SNAPSHOT_DIR = path.join(DATA_DIR, 'snapshots');
+const MANIFEST_FILE = path.join(DATA_DIR, 'index.json');
 
 /** ISO week label like "2026-W26" for a given date. */
 export function isoWeek(date = new Date()) {
@@ -45,7 +50,31 @@ export async function saveSnapshot(snapshot) {
   await ensureDir();
   const file = path.join(SNAPSHOT_DIR, `${snapshot.week}.json`);
   await fs.writeFile(file, JSON.stringify(snapshot, null, 2));
+  await writeManifest();
   return file;
+}
+
+/**
+ * Writes public/data/index.json listing every available week (plus the latest
+ * and when it was generated). Static hosts can't list a directory, so the
+ * browser reads this manifest to know which snapshots exist.
+ */
+export async function writeManifest() {
+  const weeks = await listWeeks();
+  let generatedAt = null;
+  let source = null;
+  if (weeks.length) {
+    try {
+      const latest = await readSnapshot(weeks.at(-1));
+      generatedAt = latest.generatedAt ?? null;
+      source = latest.source ?? null;
+    } catch {
+      /* ignore — manifest still useful without it */
+    }
+  }
+  const manifest = { weeks, latest: weeks.at(-1) ?? null, generatedAt, source };
+  await fs.writeFile(MANIFEST_FILE, JSON.stringify(manifest, null, 2));
+  return manifest;
 }
 
 export async function latestWeek() {
