@@ -96,32 +96,34 @@ export async function getReportWithDeltas(week) {
   const current = await readSnapshot(targetWeek);
   const previous = idx > 0 ? await readSnapshot(weeks[idx - 1]) : null;
 
-  const prevRankById = new Map();
-  if (previous) {
-    for (const s of previous.shows) {
-      prevRankById.set(keyFor(s), s.rank);
-    }
-  }
-
-  const shows = current.shows.map((s) => {
-    const prevRank = prevRankById.get(keyFor(s));
-    return {
-      ...s,
-      previousRank: prevRank ?? null,
-      delta: prevRank == null ? null : prevRank - s.rank,
-      isNew: previous ? prevRank == null : false,
-    };
-  });
-
   return {
     ...current,
-    shows,
+    shows: annotateDeltas(current.shows || [], previous?.shows),
+    returning: annotateDeltas(current.returning || [], previous?.returning),
     availableWeeks: weeks,
     comparedTo: previous ? weeks[idx - 1] : null,
   };
 }
 
+/**
+ * Annotates each show with `delta` (previous rank minus current rank: positive
+ * = climbed, negative = fell) and `isNew`, by comparing to a previous list.
+ */
+export function annotateDeltas(currentList, previousList) {
+  const prevRank = new Map();
+  if (previousList) for (const s of previousList) prevRank.set(keyFor(s), s.rank);
+  return currentList.map((s) => {
+    const pr = prevRank.get(keyFor(s));
+    return {
+      ...s,
+      previousRank: pr ?? null,
+      delta: pr == null ? null : pr - s.rank,
+      isNew: previousList ? pr == null : false,
+    };
+  });
+}
+
 // A stable identity for matching a show across weeks.
-function keyFor(show) {
+export function keyFor(show) {
   return show.ids?.trakt ?? show.ids?.tmdb ?? show.title;
 }

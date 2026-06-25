@@ -5,8 +5,11 @@ const reportEl = el('report');
 const metaBar = el('metaBar');
 const weekSelect = el('weekSelect');
 const refreshBtn = el('refreshBtn');
+const tabsEl = el('tabs');
 
 let currentWeek = null;
+let currentData = null; // last loaded report (both sections)
+let activeSection = 'new'; // 'new' | 'returning'
 // Static mode = no running Express server (e.g. deployed to Vercel). Detected
 // the first time the /api endpoint isn't reachable; we then read the committed
 // JSON snapshots directly and compute deltas in the browser.
@@ -16,10 +19,12 @@ async function loadReport(week) {
   reportEl.innerHTML = '<div class="loading">Loading…</div>';
   try {
     const data = staticMode ? await loadViaStatic(week) : await loadAuto(week);
+    currentData = data;
     currentWeek = data.week;
     renderMeta(data);
     renderWeeks(data.availableWeeks, data.week);
-    renderShows(data.shows);
+    renderTabs(data);
+    renderActiveSection();
     refreshBtn.style.display = staticMode ? 'none' : '';
   } catch (err) {
     reportEl.innerHTML = `<div class="error">Couldn’t load the report: ${escapeHtml(err.message)}</div>`;
@@ -52,15 +57,22 @@ async function loadViaStatic(week) {
   const current = await fetchSnapshot(target);
   const previous = idx > 0 ? await fetchSnapshot(weeks[idx - 1]) : null;
 
+  return {
+    ...current,
+    shows: annotateDeltas(current.shows || [], previous?.shows),
+    returning: annotateDeltas(current.returning || [], previous?.returning),
+    availableWeeks: weeks,
+    comparedTo: previous ? weeks[idx - 1] : null,
+  };
+}
+
+function annotateDeltas(currentList, previousList) {
   const prevRank = new Map();
-  if (previous) for (const s of previous.shows) prevRank.set(keyFor(s), s.rank);
-
-  const shows = current.shows.map((s) => {
+  if (previousList) for (const s of previousList) prevRank.set(keyFor(s), s.rank);
+  return currentList.map((s) => {
     const pr = prevRank.get(keyFor(s));
-    return { ...s, previousRank: pr ?? null, delta: pr == null ? null : pr - s.rank, isNew: previous ? pr == null : false };
+    return { ...s, previousRank: pr ?? null, delta: pr == null ? null : pr - s.rank, isNew: previousList ? pr == null : false };
   });
-
-  return { ...current, shows, availableWeeks: weeks, comparedTo: previous ? weeks[idx - 1] : null };
 }
 
 async function fetchSnapshot(week) {
@@ -73,6 +85,7 @@ function keyFor(show) {
   return show.ids?.trakt ?? show.ids?.tmdb ?? show.title;
 }
 
+// ---------- rendering ----------
 function renderMeta(data) {
   const generated = new Date(data.generatedAt);
   const sourceLabel = {
@@ -86,7 +99,6 @@ function renderMeta(data) {
     `<span class="pill ${data.source === 'sample' ? 'pill--sample' : ''}">Source: <strong>${escapeHtml(sourceLabel)}</strong></span>`,
     `<span class="pill">Updated <strong>${generated.toLocaleString()}</strong></span>`,
     data.comparedTo ? `<span class="pill">Movement vs <strong>${escapeHtml(prettyWeek(data.comparedTo))}</strong></span>` : '',
-    `<span class="pill"><strong>${data.shows.length}</strong> shows</span>`,
   ];
   metaBar.innerHTML = pills.join('');
 }
@@ -100,17 +112,47 @@ function renderWeeks(weeks = [], selected) {
     .join('');
 }
 
-function renderShows(shows) {
-  reportEl.innerHTML = shows.map(rowHtml).join('');
+function renderTabs(data) {
+  el('count-new').textContent = (data.shows || []).length;
+  el('count-returning').textContent = (data.returning || []).length;
+  // If the active section is empty but the other isn't, switch to the populated one.
+  if (sectionList(activeSection).length === 0 && sectionList(other(activeSection)).length > 0) {
+    activeSection = other(activeSection);
+  }
+  for (const btn of tabsEl.querySelectorAll('.tab')) {
+    btn.classList.toggle('is-active', btn.dataset.section === activeSection);
+  }
 }
 
-function rowHtml(s) {
+function sectionList(section) {
+  if (!currentData) return [];
+  return (section === 'returning' ? currentData.returning : currentData.shows) || [];
+}
+const other = (s) => (s === 'new' ? 'returning' : 'new');
+
+function renderActiveSection() {
+  const list = sectionList(activeSection);
+  if (!list.length) {
+    reportEl.innerHTML = `<div class="loading">No ${activeSection === 'returning' ? 'returning-season premieres' : 'new shows'} for this week.</div>`;
+    return;
+  }
+  reportEl.innerHTML = list.map((s) => rowHtml(s, activeSection)).join('');
+}
+
+function rowHtml(s, section) {
   const net = s.networks?.[0] || s.network;
   const genres = (s.tmdbGenres?.length ? s.tmdbGenres : s.genres) || [];
+  const seasonBadge = section === 'returning' && s.seasonNumber
+    ? `<span class="badge badge--season">Season ${s.seasonNumber}</span>` : '';
   const badges = [
+    seasonBadge,
     net ? `<span class="badge badge--net">${escapeHtml(net)}</span>` : '',
     ...genres.slice(0, 3).map((g) => `<span class="badge">${escapeHtml(titleCase(g))}</span>`),
   ].join('');
+
+  const isReturning = section === 'returning';
+  const scoreLabel = isReturning ? 'Popularity' : 'Anticipation';
+  const detail = isReturning ? premiereText(s.premiereDate) : `${formatCount(s.listCount)} watchlists`;
 
   return `
     <article class="row">
@@ -125,10 +167,10 @@ function rowHtml(s) {
         <p class="info__overview">${escapeHtml(s.overview || '')}</p>
       </div>
       <div class="score">
-        <div class="score__label">Anticipation</div>
+        <div class="score__label">${scoreLabel}</div>
         <div class="score__val">${s.anticipationScore ?? '—'}</div>
         <div class="score__bar"><div class="score__fill" style="width:${s.anticipationScore ?? 0}%"></div></div>
-        <div class="score__count">${formatCount(s.listCount)} watchlists</div>
+        <div class="score__count">${detail}</div>
       </div>
     </article>`;
 }
@@ -155,6 +197,15 @@ function prettyWeek(w) {
   const m = /^(\d{4})-W(\d{2})$/.exec(w);
   return m ? `Week ${Number(m[2])}, ${m[1]}` : w;
 }
+function premiereText(iso) {
+  if (!iso) return 'Premiere date TBA';
+  const d = new Date(iso);
+  if (isNaN(d)) return 'Premiere date TBA';
+  const date = d.toLocaleDateString(undefined, { month: 'short', day: 'numeric', year: 'numeric' });
+  const days = Math.ceil((d - Date.now()) / 86400000);
+  const when = days > 1 ? `in ${days} days` : days === 1 ? 'tomorrow' : days === 0 ? 'today' : 'aired';
+  return `Premieres ${date} · ${when}`;
+}
 function titleCase(s) {
   return String(s).replace(/(^|[\s-])\w/g, (c) => c.toUpperCase()).replace(/-/g, ' ');
 }
@@ -169,6 +220,14 @@ function escapeAttr(s) { return escapeHtml(s).replace(/`/g, '&#96;'); }
 
 // ---------- events ----------
 weekSelect.addEventListener('change', () => loadReport(weekSelect.value));
+
+tabsEl.addEventListener('click', (e) => {
+  const btn = e.target.closest('.tab');
+  if (!btn || btn.dataset.section === activeSection) return;
+  activeSection = btn.dataset.section;
+  for (const b of tabsEl.querySelectorAll('.tab')) b.classList.toggle('is-active', b === btn);
+  renderActiveSection();
+});
 
 refreshBtn.addEventListener('click', async () => {
   refreshBtn.disabled = true;

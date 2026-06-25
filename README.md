@@ -20,6 +20,13 @@ the moment you add two free API keys.
 
 ## Features
 
+- **Two tabs**:
+  - **New Shows** — Trakt's anticipated list (brand-new, unreleased series),
+    ranked by watchlist demand.
+  - **Returning Seasons** — upcoming Season 2+ premieres of existing shows
+    (e.g. *House of the Dragon* S3), ranked by show popularity, each with its
+    premiere date and a countdown. (Trakt's anticipated list drops a show once
+    it has aired at all, so this second tab fills that gap.)
 - Ranked, poster-driven report styled after a real anticipation chart
 - **Week-over-week movement** (▲ / ▼ / NEW) computed from saved history
 - A **week picker** to browse past reports

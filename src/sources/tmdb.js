@@ -60,6 +60,7 @@ export async function fetchShowDetails(tmdbId) {
       nextAirDate: nextEp?.air_date || null,
       lastAirDate: lastEp?.air_date || null,
       voteAverage: data.vote_average ?? null,
+      popularity: data.popularity ?? null,
       tmdbGenres: (data.genres || []).map((g) => g.name),
       homepage: data.homepage || null,
     };
