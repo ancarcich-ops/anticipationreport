@@ -5,342 +5,10 @@
   "note": "Add TRAKT_CLIENT_ID and TMDB_API_KEY to .env for live data.",
   "shows": [
     {
-      "listCount": 12130,
-      "title": "Harry Potter",
-      "year": 2026,
-      "overview": "A faithful new adaptation of J.K. Rowling’s books, with each season bringing one beloved story to life.",
-      "network": "HBO",
-      "status": "in production",
-      "genres": [
-        "drama",
-        "fantasy"
-      ],
-      "ids": {
-        "trakt": 450307,
-        "slug": null,
-        "tmdb": 250307,
-        "imdb": "tt23071730"
-      },
-      "posterUrl": "https://image.tmdb.org/t/p/w500/yFRcF9zUcViYTViMYZQpUdjbm9u.jpg",
-      "networks": [
-        "HBO"
-      ],
-      "tmdbGenres": [
-        "drama",
-        "fantasy"
-      ],
-      "rank": 1,
-      "anticipationScore": 100
-    },
-    {
-      "listCount": 10709,
-      "title": "Lanterns",
-      "year": 2026,
-      "overview": "Green Lanterns Hal Jordan and John Stewart investigate a dark mystery on Earth in this grounded DC saga.",
-      "network": "HBO",
-      "status": "in production",
-      "genres": [
-        "drama",
-        "crime",
-        "science-fiction"
-      ],
-      "ids": {
-        "trakt": 310492,
-        "slug": null,
-        "tmdb": 110492,
-        "imdb": "tt31132012"
-      },
-      "posterUrl": "https://image.tmdb.org/t/p/w500/hE3LRZAY84fG19a18pzpkZERjTE.jpg",
-      "networks": [
-        "HBO"
-      ],
-      "tmdbGenres": [
-        "drama",
-        "crime",
-        "science-fiction"
-      ],
-      "rank": 2,
-      "anticipationScore": 88
-    },
-    {
-      "listCount": 9492,
-      "title": "IT: Welcome to Derry",
-      "year": 2025,
-      "overview": "A prequel to the IT films, descending into the cursed town of Derry decades before Pennywise’s return.",
-      "network": "HBO",
-      "status": "in production",
-      "genres": [
-        "horror",
-        "drama"
-      ],
-      "ids": {
-        "trakt": 325907,
-        "slug": null,
-        "tmdb": 125907,
-        "imdb": "tt17207110"
-      },
-      "posterUrl": "https://image.tmdb.org/t/p/w500/9PFonBhy4cQy7Jz20NpMygczOkv.jpg",
-      "networks": [
-        "HBO"
-      ],
-      "tmdbGenres": [
-        "horror",
-        "drama"
-      ],
-      "rank": 3,
-      "anticipationScore": 78
-    },
-    {
-      "listCount": 7593,
-      "title": "Pluribus",
-      "year": 2025,
-      "overview": "From the creator of Breaking Bad: the most miserable person on Earth must save the world from happiness.",
-      "network": "Apple TV+",
-      "status": "in production",
-      "genres": [
-        "drama",
-        "science-fiction"
-      ],
-      "ids": {
-        "trakt": 448890,
-        "slug": null,
-        "tmdb": 248890,
-        "imdb": "tt31510819"
-      },
-      "posterUrl": "https://image.tmdb.org/t/p/w500/lFf6LLrQjYldcZItzOkGmMMigP7.jpg",
-      "networks": [
-        "Apple TV+"
-      ],
-      "tmdbGenres": [
-        "drama",
-        "science-fiction"
-      ],
-      "rank": 4,
-      "anticipationScore": 63
-    },
-    {
-      "listCount": 5836,
-      "title": "Blade Runner 2099",
-      "year": 2026,
-      "overview": "Set fifty years after Blade Runner 2049, an aging replicant is pulled back into a world she tried to escape.",
-      "network": "Prime Video",
-      "status": "in production",
-      "genres": [
-        "science-fiction",
-        "drama"
-      ],
-      "ids": {
-        "trakt": 357741,
-        "slug": null,
-        "tmdb": 157741,
-        "imdb": "tt27668255"
-      },
-      "posterUrl": "https://image.tmdb.org/t/p/w500/declVTLqWSADfBkQbahArSXjVhE.jpg",
-      "networks": [
-        "Prime Video"
-      ],
-      "tmdbGenres": [
-        "science-fiction",
-        "drama"
-      ],
-      "rank": 5,
-      "anticipationScore": 48
-    },
-    {
-      "listCount": 4942,
-      "title": "Lazarus",
-      "year": 2026,
-      "overview": "A man learns the dead may not be as gone as he believed, in a twisting thriller from Harlan Coben.",
-      "network": "Prime Video",
-      "status": "in production",
-      "genres": [
-        "drama",
-        "mystery",
-        "thriller"
-      ],
-      "ids": {
-        "trakt": 411851,
-        "slug": null,
-        "tmdb": 211851,
-        "imdb": "tt27911000"
-      },
-      "posterUrl": "https://image.tmdb.org/t/p/w500/7vjaCdMw15FEbXyLQTVa04URsPm.jpg",
-      "networks": [
-        "Prime Video"
-      ],
-      "tmdbGenres": [
-        "drama",
-        "mystery",
-        "thriller"
-      ],
-      "rank": 6,
-      "anticipationScore": 41
-    },
-    {
-      "listCount": 4900,
-      "title": "The Boroughs",
-      "year": 2026,
-      "overview": "A group of retirees in a desert community confront a supernatural force lurking beneath their town.",
-      "network": "Netflix",
-      "status": "in production",
-      "genres": [
-        "science-fiction",
-        "mystery",
-        "drama"
-      ],
-      "ids": {
-        "trakt": 449039,
-        "slug": null,
-        "tmdb": 249039,
-        "imdb": "tt30444112"
-      },
-      "posterUrl": "https://image.tmdb.org/t/p/w500/AnsSKR9LuK0vReFLLEbbsHJ7d8X.jpg",
-      "networks": [
-        "Netflix"
-      ],
-      "tmdbGenres": [
-        "science-fiction",
-        "mystery",
-        "drama"
-      ],
-      "rank": 7,
-      "anticipationScore": 40
-    },
-    {
-      "listCount": 3118,
-      "title": "Star Wars: Maul – Shadow Lord",
-      "year": 2026,
-      "overview": "Darth Maul builds his criminal empire from the shadows in this animated Star Wars series.",
-      "network": "Disney+",
-      "status": "in production",
-      "genres": [
-        "science-fiction",
-        "animation",
-        "action"
-      ],
-      "ids": {
-        "trakt": 440411,
-        "slug": null,
-        "tmdb": 240411,
-        "imdb": "tt32359447"
-      },
-      "posterUrl": "https://image.tmdb.org/t/p/w500/2zmtNBksTQRRDhNmoFs9GVT7CK0.jpg",
-      "networks": [
-        "Disney+"
-      ],
-      "tmdbGenres": [
-        "science-fiction",
-        "animation",
-        "action"
-      ],
-      "rank": 8,
-      "anticipationScore": 26
-    }
-  ],
-  "returning": [
-    {
-      "votes": 400972,
-      "title": "Stranger Things",
-      "year": 2016,
-      "seasonNumber": 5,
-      "premiereDate": "2026-07-06T09:00:00.000Z",
-      "overview": "The final season. As the Upside Down bleeds into Hawkins, the gang reunites for one last fight.",
-      "network": "Netflix",
-      "status": "returning series",
-      "genres": [
-        "drama",
-        "horror",
-        "science-fiction"
-      ],
-      "ids": {
-        "trakt": 366732,
-        "slug": null,
-        "tmdb": 66732,
-        "imdb": "tt4574334"
-      },
-      "posterUrl": "https://image.tmdb.org/t/p/w500/49WJfeN0moxb9IPfGn8AIqMGskD.jpg",
-      "networks": [
-        "Netflix"
-      ],
-      "tmdbGenres": [
-        "drama",
-        "horror",
-        "science-fiction"
-      ],
-      "rank": 1,
-      "anticipationScore": 100
-    },
-    {
-      "votes": 391819,
-      "title": "House of the Dragon",
-      "year": 2022,
-      "seasonNumber": 3,
-      "premiereDate": "2026-08-10T09:00:00.000Z",
-      "overview": "The Dance of the Dragons rages on as Rhaenyra and Aegon commit the realm to all-out war.",
-      "network": "HBO",
-      "status": "returning series",
-      "genres": [
-        "drama",
-        "fantasy",
-        "action"
-      ],
-      "ids": {
-        "trakt": 394997,
-        "slug": null,
-        "tmdb": 94997,
-        "imdb": "tt11198330"
-      },
-      "posterUrl": "https://image.tmdb.org/t/p/w500/7QMsOTMUswlwxJP0rTTZfmz2tX2.jpg",
-      "networks": [
-        "HBO"
-      ],
-      "tmdbGenres": [
-        "drama",
-        "fantasy",
-        "action"
-      ],
-      "rank": 2,
-      "anticipationScore": 98
-    },
-    {
-      "votes": 361938,
-      "title": "The Last of Us",
-      "year": 2023,
-      "seasonNumber": 2,
-      "premiereDate": "2026-07-20T09:00:00.000Z",
-      "overview": "A fragile peace is shattered, and Ellie sets out on a path of revenge across a broken country.",
-      "network": "HBO",
-      "status": "returning series",
-      "genres": [
-        "drama",
-        "horror",
-        "action"
-      ],
-      "ids": {
-        "trakt": 400088,
-        "slug": null,
-        "tmdb": 100088,
-        "imdb": "tt3581920"
-      },
-      "posterUrl": "https://image.tmdb.org/t/p/w500/dmo6TYuuJgaYinXBPjrgG9mB5od.jpg",
-      "networks": [
-        "HBO"
-      ],
-      "tmdbGenres": [
-        "drama",
-        "horror",
-        "action"
-      ],
-      "rank": 3,
-      "anticipationScore": 90
-    },
-    {
-      "votes": 321267,
+      "listCount": 39819,
       "title": "Wednesday",
-      "year": 2022,
-      "seasonNumber": 3,
-      "premiereDate": "2026-08-31T09:00:00.000Z",
-      "overview": "Wednesday Addams returns to Nevermore, where new mysteries test her deadpan detective skills.",
+      "year": 2025,
+      "overview": "Wednesday Addams returns to Nevermore Academy, where a new wave of mysteries puts her deadpan detective skills to the test.",
       "network": "Netflix",
       "status": "returning series",
       "genres": [
@@ -348,31 +16,75 @@
         "crime",
         "fantasy"
       ],
+      "firstAired": null,
+      "runtime": null,
+      "certification": null,
       "ids": {
-        "trakt": 419051,
+        "trakt": 219051,
         "slug": null,
         "tmdb": 119051,
         "imdb": "tt13443470"
       },
       "posterUrl": "https://image.tmdb.org/t/p/w500/9PFonBhy4cQy7Jz20NpMygczOkv.jpg",
+      "backdropUrl": null,
       "networks": [
         "Netflix"
       ],
+      "tmdbStatus": "Returning Series",
+      "firstAirDate": null,
+      "voteAverage": null,
       "tmdbGenres": [
         "comedy",
         "crime",
         "fantasy"
       ],
-      "rank": 4,
-      "anticipationScore": 80
+      "homepage": null,
+      "rank": 1,
+      "anticipationScore": 100
     },
     {
-      "votes": 307696,
+      "listCount": 38259,
+      "title": "Stranger Things",
+      "year": 2025,
+      "overview": "The final season. As the Upside Down bleeds into Hawkins, the gang reunites for one last fight to save their world.",
+      "network": "Netflix",
+      "status": "returning series",
+      "genres": [
+        "drama",
+        "horror",
+        "science-fiction"
+      ],
+      "firstAired": null,
+      "runtime": null,
+      "certification": null,
+      "ids": {
+        "trakt": 166732,
+        "slug": null,
+        "tmdb": 66732,
+        "imdb": "tt4574334"
+      },
+      "posterUrl": "https://image.tmdb.org/t/p/w500/49WJfeN0moxb9IPfGn8AIqMGskD.jpg",
+      "backdropUrl": null,
+      "networks": [
+        "Netflix"
+      ],
+      "tmdbStatus": "Returning Series",
+      "firstAirDate": null,
+      "voteAverage": null,
+      "tmdbGenres": [
+        "drama",
+        "horror",
+        "science-fiction"
+      ],
+      "homepage": null,
+      "rank": 2,
+      "anticipationScore": 96
+    },
+    {
+      "listCount": 36684,
       "title": "Severance",
-      "year": 2022,
-      "seasonNumber": 3,
-      "premiereDate": "2026-09-21T09:00:00.000Z",
-      "overview": "The innies push deeper into Lumon’s secrets as work-self and home-self collapse together.",
+      "year": 2025,
+      "overview": "The innies push deeper into Lumon’s secrets as the line between work-self and home-self collapses.",
       "network": "Apple TV+",
       "status": "returning series",
       "genres": [
@@ -380,31 +92,113 @@
         "mystery",
         "science-fiction"
       ],
+      "firstAired": null,
+      "runtime": null,
+      "certification": null,
       "ids": {
-        "trakt": 395396,
+        "trakt": 195396,
         "slug": null,
         "tmdb": 95396,
         "imdb": "tt11280740"
       },
       "posterUrl": "https://image.tmdb.org/t/p/w500/lFf6LLrQjYldcZItzOkGmMMigP7.jpg",
+      "backdropUrl": null,
       "networks": [
         "Apple TV+"
       ],
+      "tmdbStatus": "Returning Series",
+      "firstAirDate": null,
+      "voteAverage": null,
       "tmdbGenres": [
         "drama",
         "mystery",
         "science-fiction"
       ],
-      "rank": 5,
-      "anticipationScore": 77
+      "homepage": null,
+      "rank": 3,
+      "anticipationScore": 92
     },
     {
-      "votes": 274812,
+      "listCount": 34486,
+      "title": "The Last of Us",
+      "year": 2026,
+      "overview": "Years after the events in Salt Lake City, a fragile peace is shattered and Ellie sets out on a path of revenge.",
+      "network": "HBO",
+      "status": "returning series",
+      "genres": [
+        "drama",
+        "horror",
+        "action"
+      ],
+      "firstAired": null,
+      "runtime": null,
+      "certification": null,
+      "ids": {
+        "trakt": 200088,
+        "slug": null,
+        "tmdb": 100088,
+        "imdb": "tt3581920"
+      },
+      "posterUrl": "https://image.tmdb.org/t/p/w500/dmo6TYuuJgaYinXBPjrgG9mB5od.jpg",
+      "backdropUrl": null,
+      "networks": [
+        "HBO"
+      ],
+      "tmdbStatus": "Returning Series",
+      "firstAirDate": null,
+      "voteAverage": null,
+      "tmdbGenres": [
+        "drama",
+        "horror",
+        "action"
+      ],
+      "homepage": null,
+      "rank": 4,
+      "anticipationScore": 87
+    },
+    {
+      "listCount": 30271,
+      "title": "House of the Dragon",
+      "year": 2026,
+      "overview": "The Dance of the Dragons rages on as Rhaenyra and Aegon commit the Seven Kingdoms to all-out war.",
+      "network": "HBO",
+      "status": "returning series",
+      "genres": [
+        "drama",
+        "fantasy",
+        "action"
+      ],
+      "firstAired": null,
+      "runtime": null,
+      "certification": null,
+      "ids": {
+        "trakt": 194997,
+        "slug": null,
+        "tmdb": 94997,
+        "imdb": "tt11198330"
+      },
+      "posterUrl": "https://image.tmdb.org/t/p/w500/7QMsOTMUswlwxJP0rTTZfmz2tX2.jpg",
+      "backdropUrl": null,
+      "networks": [
+        "HBO"
+      ],
+      "tmdbStatus": "Returning Series",
+      "firstAirDate": null,
+      "voteAverage": null,
+      "tmdbGenres": [
+        "drama",
+        "fantasy",
+        "action"
+      ],
+      "homepage": null,
+      "rank": 5,
+      "anticipationScore": 76
+    },
+    {
+      "listCount": 27183,
       "title": "The Witcher",
-      "year": 2019,
-      "seasonNumber": 4,
-      "premiereDate": "2026-07-27T09:00:00.000Z",
-      "overview": "A new Geralt takes up the silver sword as Ciri’s destiny draws the Continent toward breaking.",
+      "year": 2026,
+      "overview": "A new Geralt takes up the silver sword as Ciri’s destiny draws the Continent toward its breaking point.",
       "network": "Netflix",
       "status": "returning series",
       "genres": [
@@ -412,63 +206,37 @@
         "action",
         "fantasy"
       ],
+      "firstAired": null,
+      "runtime": null,
+      "certification": null,
       "ids": {
-        "trakt": 371912,
+        "trakt": 171912,
         "slug": null,
         "tmdb": 71912,
         "imdb": "tt5180504"
       },
       "posterUrl": "https://image.tmdb.org/t/p/w500/7vjaCdMw15FEbXyLQTVa04URsPm.jpg",
+      "backdropUrl": null,
       "networks": [
         "Netflix"
       ],
+      "tmdbStatus": "Returning Series",
+      "firstAirDate": null,
+      "voteAverage": null,
       "tmdbGenres": [
         "drama",
         "action",
         "fantasy"
       ],
+      "homepage": null,
       "rank": 6,
-      "anticipationScore": 69
+      "anticipationScore": 68
     },
     {
-      "votes": 245887,
-      "title": "The Boys",
-      "year": 2019,
-      "seasonNumber": 5,
-      "premiereDate": "2026-08-17T09:00:00.000Z",
-      "overview": "The fight against Homelander reaches its endgame as Butcher and the Boys run out of time.",
-      "network": "Prime Video",
-      "status": "returning series",
-      "genres": [
-        "action",
-        "comedy",
-        "science-fiction"
-      ],
-      "ids": {
-        "trakt": 376479,
-        "slug": null,
-        "tmdb": 76479,
-        "imdb": "tt1190634"
-      },
-      "posterUrl": "https://image.tmdb.org/t/p/w500/2zmtNBksTQRRDhNmoFs9GVT7CK0.jpg",
-      "networks": [
-        "Prime Video"
-      ],
-      "tmdbGenres": [
-        "action",
-        "comedy",
-        "science-fiction"
-      ],
-      "rank": 7,
-      "anticipationScore": 61
-    },
-    {
-      "votes": 209999,
+      "listCount": 25800,
       "title": "Andor",
-      "year": 2022,
-      "seasonNumber": 2,
-      "premiereDate": "2026-07-13T09:00:00.000Z",
-      "overview": "The final stretch of Cassian Andor’s journey from thief to revolutionary.",
+      "year": 2025,
+      "overview": "The final stretch of Cassian Andor’s journey from thief to revolutionary, leading straight to the brink of rebellion.",
       "network": "Disney+",
       "status": "returning series",
       "genres": [
@@ -476,59 +244,109 @@
         "drama",
         "action"
       ],
+      "firstAired": null,
+      "runtime": null,
+      "certification": null,
       "ids": {
-        "trakt": 383867,
+        "trakt": 183867,
         "slug": null,
         "tmdb": 83867,
         "imdb": "tt9253284"
       },
       "posterUrl": "https://image.tmdb.org/t/p/w500/declVTLqWSADfBkQbahArSXjVhE.jpg",
+      "backdropUrl": null,
       "networks": [
         "Disney+"
       ],
+      "tmdbStatus": "Returning Series",
+      "firstAirDate": null,
+      "voteAverage": null,
       "tmdbGenres": [
         "science-fiction",
         "drama",
         "action"
       ],
-      "rank": 8,
-      "anticipationScore": 52
+      "homepage": null,
+      "rank": 7,
+      "anticipationScore": 65
     },
     {
-      "votes": 179124,
+      "listCount": 22636,
       "title": "Euphoria",
-      "year": 2019,
-      "seasonNumber": 3,
-      "premiereDate": "2026-10-05T09:00:00.000Z",
-      "overview": "Rue and the students of East Highland return for a turbulent new chapter of love and identity.",
+      "year": 2026,
+      "overview": "Rue and the students of East Highland return for a turbulent new chapter of addiction, love and identity.",
       "network": "HBO",
       "status": "returning series",
       "genres": [
         "drama"
       ],
+      "firstAired": null,
+      "runtime": null,
+      "certification": null,
       "ids": {
-        "trakt": 385552,
+        "trakt": 185552,
         "slug": null,
         "tmdb": 85552,
         "imdb": "tt8772296"
       },
       "posterUrl": "https://image.tmdb.org/t/p/w500/jtnfNzqZwN4E32FGGxx1YZaBWWf.jpg",
+      "backdropUrl": null,
       "networks": [
         "HBO"
       ],
+      "tmdbStatus": "Returning Series",
+      "firstAirDate": null,
+      "voteAverage": null,
       "tmdbGenres": [
         "drama"
       ],
-      "rank": 9,
-      "anticipationScore": 45
+      "homepage": null,
+      "rank": 8,
+      "anticipationScore": 57
     },
     {
-      "votes": 163496,
+      "listCount": 21035,
+      "title": "Squid Game",
+      "year": 2025,
+      "overview": "Gi-hun re-enters the deadly games, determined to tear them down from the inside.",
+      "network": "Netflix",
+      "status": "returning series",
+      "genres": [
+        "action",
+        "mystery",
+        "drama"
+      ],
+      "firstAired": null,
+      "runtime": null,
+      "certification": null,
+      "ids": {
+        "trakt": 193405,
+        "slug": null,
+        "tmdb": 93405,
+        "imdb": "tt10919420"
+      },
+      "posterUrl": "https://image.tmdb.org/t/p/w500/dDlEmu3EZ0Pgg93K2SVNLCjCSvE.jpg",
+      "backdropUrl": null,
+      "networks": [
+        "Netflix"
+      ],
+      "tmdbStatus": "Returning Series",
+      "firstAirDate": null,
+      "voteAverage": null,
+      "tmdbGenres": [
+        "action",
+        "mystery",
+        "drama"
+      ],
+      "homepage": null,
+      "rank": 9,
+      "anticipationScore": 53
+    },
+    {
+      "listCount": 19399,
       "title": "Fallout",
-      "year": 2024,
-      "seasonNumber": 2,
-      "premiereDate": "2026-08-03T09:00:00.000Z",
-      "overview": "Lucy and the Ghoul press on toward New Vegas in search of answers about the old world.",
+      "year": 2026,
+      "overview": "Lucy and the Ghoul press on across the irradiated wasteland of New Vegas in search of answers about the old world.",
       "network": "Prime Video",
       "status": "returning series",
       "genres": [
@@ -536,23 +354,221 @@
         "drama",
         "action"
       ],
+      "firstAired": null,
+      "runtime": null,
+      "certification": null,
       "ids": {
-        "trakt": 406379,
+        "trakt": 206379,
         "slug": null,
         "tmdb": 106379,
         "imdb": "tt12637874"
       },
       "posterUrl": "https://image.tmdb.org/t/p/w500/AnsSKR9LuK0vReFLLEbbsHJ7d8X.jpg",
+      "backdropUrl": null,
       "networks": [
         "Prime Video"
       ],
+      "tmdbStatus": "Returning Series",
+      "firstAirDate": null,
+      "voteAverage": null,
       "tmdbGenres": [
         "science-fiction",
         "drama",
         "action"
       ],
+      "homepage": null,
       "rank": 10,
-      "anticipationScore": 41
+      "anticipationScore": 49
+    },
+    {
+      "listCount": 19200,
+      "title": "The Boys",
+      "year": 2026,
+      "overview": "The fight against Homelander reaches its endgame as Butcher and the Boys run out of time and allies.",
+      "network": "Prime Video",
+      "status": "returning series",
+      "genres": [
+        "action",
+        "comedy",
+        "science-fiction"
+      ],
+      "firstAired": null,
+      "runtime": null,
+      "certification": null,
+      "ids": {
+        "trakt": 176479,
+        "slug": null,
+        "tmdb": 76479,
+        "imdb": "tt1190634"
+      },
+      "posterUrl": "https://image.tmdb.org/t/p/w500/2zmtNBksTQRRDhNmoFs9GVT7CK0.jpg",
+      "backdropUrl": null,
+      "networks": [
+        "Prime Video"
+      ],
+      "tmdbStatus": "Returning Series",
+      "firstAirDate": null,
+      "voteAverage": null,
+      "tmdbGenres": [
+        "action",
+        "comedy",
+        "science-fiction"
+      ],
+      "homepage": null,
+      "rank": 11,
+      "anticipationScore": 48
+    },
+    {
+      "listCount": 16709,
+      "title": "Peacemaker",
+      "year": 2025,
+      "overview": "Christopher Smith confronts a multiverse of alternate lives — and the temptation to abandon the one he has.",
+      "network": "HBO Max",
+      "status": "returning series",
+      "genres": [
+        "action",
+        "comedy",
+        "science-fiction"
+      ],
+      "firstAired": null,
+      "runtime": null,
+      "certification": null,
+      "ids": {
+        "trakt": 210492,
+        "slug": null,
+        "tmdb": 110492,
+        "imdb": "tt13146488"
+      },
+      "posterUrl": "https://image.tmdb.org/t/p/w500/hE3LRZAY84fG19a18pzpkZERjTE.jpg",
+      "backdropUrl": null,
+      "networks": [
+        "HBO Max"
+      ],
+      "tmdbStatus": "Returning Series",
+      "firstAirDate": null,
+      "voteAverage": null,
+      "tmdbGenres": [
+        "action",
+        "comedy",
+        "science-fiction"
+      ],
+      "homepage": null,
+      "rank": 12,
+      "anticipationScore": 42
+    },
+    {
+      "listCount": 14799,
+      "title": "One Piece",
+      "year": 2026,
+      "overview": "The Straw Hats sail into the Grand Line as Luffy’s hunt for the One Piece draws new enemies and allies.",
+      "network": "Netflix",
+      "status": "returning series",
+      "genres": [
+        "action",
+        "adventure",
+        "comedy"
+      ],
+      "firstAired": null,
+      "runtime": null,
+      "certification": null,
+      "ids": {
+        "trakt": 137854,
+        "slug": null,
+        "tmdb": 37854,
+        "imdb": "tt11737520"
+      },
+      "posterUrl": "https://image.tmdb.org/t/p/w500/cZ86g0xL1uXGGn4Bp2chPpGNDJL.jpg",
+      "backdropUrl": null,
+      "networks": [
+        "Netflix"
+      ],
+      "tmdbStatus": "Returning Series",
+      "firstAirDate": null,
+      "voteAverage": null,
+      "tmdbGenres": [
+        "action",
+        "adventure",
+        "comedy"
+      ],
+      "homepage": null,
+      "rank": 13,
+      "anticipationScore": 37
+    },
+    {
+      "listCount": 13790,
+      "title": "Daredevil: Born Again",
+      "year": 2026,
+      "overview": "Matt Murdock and Wilson Fisk are pulled back into their violent orbit as Hell’s Kitchen edges toward chaos.",
+      "network": "Disney+",
+      "status": "returning series",
+      "genres": [
+        "action",
+        "crime",
+        "drama"
+      ],
+      "firstAired": null,
+      "runtime": null,
+      "certification": null,
+      "ids": {
+        "trakt": 302555,
+        "slug": null,
+        "tmdb": 202555,
+        "imdb": "tt18923754"
+      },
+      "posterUrl": "https://image.tmdb.org/t/p/w500/khYxPGKxFw9SbjG3l6gA4nQqyQt.jpg",
+      "backdropUrl": null,
+      "networks": [
+        "Disney+"
+      ],
+      "tmdbStatus": "Returning Series",
+      "firstAirDate": null,
+      "voteAverage": null,
+      "tmdbGenres": [
+        "action",
+        "crime",
+        "drama"
+      ],
+      "homepage": null,
+      "rank": 14,
+      "anticipationScore": 35
+    },
+    {
+      "listCount": 9527,
+      "title": "Alien: Earth",
+      "year": 2025,
+      "overview": "When a deep-space vessel crashes to Earth, a young woman and a band of soldiers make a terrifying discovery.",
+      "network": "FX",
+      "status": "returning series",
+      "genres": [
+        "science-fiction",
+        "horror",
+        "drama"
+      ],
+      "firstAired": null,
+      "runtime": null,
+      "certification": null,
+      "ids": {
+        "trakt": 257239,
+        "slug": null,
+        "tmdb": 157239,
+        "imdb": "tt10677788"
+      },
+      "posterUrl": "https://image.tmdb.org/t/p/w500/wWba3TaojhK7NdycRhoQpsG0FaH.jpg",
+      "backdropUrl": null,
+      "networks": [
+        "FX"
+      ],
+      "tmdbStatus": "Returning Series",
+      "firstAirDate": null,
+      "voteAverage": null,
+      "tmdbGenres": [
+        "science-fiction",
+        "horror",
+        "drama"
+      ],
+      "homepage": null,
+      "rank": 15,
+      "anticipationScore": 24
     }
   ]
 }
