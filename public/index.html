@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Anticipation Report — Most Anticipated TV Shows</title>
+    <link rel="preconnect" href="https://image.tmdb.org" />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header class="masthead">
+      <div class="masthead__inner">
+        <div class="brand">
+          <span class="brand__kicker">Weekly</span>
+          <h1 class="brand__title">The Anticipation Report</h1>
+          <p class="brand__sub">The most anticipated TV shows, ranked by audience demand.</p>
+        </div>
+        <div class="controls">
+          <label class="week-picker">
+            <span>Week</span>
+            <select id="weekSelect" aria-label="Select week"></select>
+          </label>
+          <button id="refreshBtn" class="btn" type="button">Refresh data</button>
+        </div>
+      </div>
+      <div class="meta-bar" id="metaBar"></div>
+    </header>
+
+    <main class="report" id="report" aria-live="polite">
+      <div class="loading" id="loading">Loading the latest report…</div>
+    </main>
+
+    <footer class="footer">
+      <p>
+        Rankings powered by the
+        <a href="https://trakt.tv" target="_blank" rel="noopener">Trakt</a>
+        anticipated list, enriched with
+        <a href="https://www.themoviedb.org" target="_blank" rel="noopener">TMDB</a>.
+        Inspired by Whip Media’s Anticipation Report. Not affiliated with Whip Media or TV Time.
+      </p>
+    </footer>
+
+    <script src="/app.js"></script>
+  </body>
+</html>

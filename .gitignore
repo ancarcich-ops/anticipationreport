@@ -1,0 +1,7 @@
+node_modules/
+.env
+*.log
+.DS_Store
+
+# Keep snapshot history in git so week-over-week deltas survive restarts/redeploys.
+# (data/snapshots/*.json is intentionally NOT ignored.)
