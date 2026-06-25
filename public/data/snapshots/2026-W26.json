@@ -1,574 +1,1035 @@
 {
   "week": "2026-W26",
-  "generatedAt": "2026-06-23T09:00:00.000Z",
-  "source": "sample",
-  "note": "Add TRAKT_CLIENT_ID and TMDB_API_KEY to .env for live data.",
+  "generatedAt": "2026-06-25T07:28:29.620Z",
+  "source": "trakt+tmdb",
   "shows": [
     {
-      "listCount": 41533,
-      "title": "Wednesday",
-      "year": 2025,
-      "overview": "Wednesday Addams returns to Nevermore Academy, where a new wave of mysteries puts her deadpan detective skills to the test.",
-      "network": "Netflix",
-      "status": "returning series",
+      "rank": 1,
+      "listCount": 13593,
+      "title": "Harry Potter",
+      "year": 2026,
+      "overview": "There is nothing special about Harry Potter - at least that's what his Aunt Petunia always says. On his 11th birthday, a letter of admittance to Hogwarts School of Witchcraft and Wizardry opens up a hidden world for Harry: one of fun, friendship and magic. But with this new adventure comes great risk as Harry is forced to face a dangerous enemy from his past.",
+      "network": "HBO Max",
+      "status": "in production",
       "genres": [
-        "comedy",
-        "crime",
-        "fantasy"
+        "fantasy",
+        "science-fiction",
+        "action",
+        "adventure",
+        "family"
       ],
-      "firstAired": null,
+      "firstAired": "2026-12-25T00:00:00.000Z",
       "runtime": null,
       "certification": null,
       "ids": {
-        "trakt": 219051,
-        "slug": null,
-        "tmdb": 119051,
-        "imdb": "tt13443470"
+        "trakt": 204167,
+        "slug": "harry-potter",
+        "tmdb": 224377,
+        "imdb": "tt13918446"
       },
-      "posterUrl": "https://image.tmdb.org/t/p/w500/9PFonBhy4cQy7Jz20NpMygczOkv.jpg",
-      "backdropUrl": null,
+      "tmdbId": 224377,
+      "posterUrl": "https://image.tmdb.org/t/p/w500/SJCnXVBJZh7X7ePLt6XMp6TZAj.jpg",
+      "backdropUrl": "https://image.tmdb.org/t/p/w780/liHWCTCi3PK56P7fUJrxhu4OuJZ.jpg",
       "networks": [
-        "Netflix"
+        "HBO",
+        "HBO Max"
       ],
-      "tmdbStatus": "Returning Series",
-      "firstAirDate": null,
-      "voteAverage": null,
+      "tmdbStatus": "In Production",
+      "firstAirDate": "2026-12-25",
+      "nextAirDate": "2026-12-25",
+      "lastAirDate": null,
+      "voteAverage": 0,
       "tmdbGenres": [
-        "comedy",
-        "crime",
-        "fantasy"
+        "Action & Adventure",
+        "Family",
+        "Sci-Fi & Fantasy"
       ],
       "homepage": null,
-      "rank": 1,
       "anticipationScore": 100
     },
     {
-      "listCount": 38138,
-      "title": "Stranger Things",
-      "year": 2025,
-      "overview": "The final season. As the Upside Down bleeds into Hawkins, the gang reunites for one last fight to save their world.",
-      "network": "Netflix",
-      "status": "returning series",
-      "genres": [
-        "drama",
-        "horror",
-        "science-fiction"
-      ],
-      "firstAired": null,
-      "runtime": null,
-      "certification": null,
-      "ids": {
-        "trakt": 166732,
-        "slug": null,
-        "tmdb": 66732,
-        "imdb": "tt4574334"
-      },
-      "posterUrl": "https://image.tmdb.org/t/p/w500/49WJfeN0moxb9IPfGn8AIqMGskD.jpg",
-      "backdropUrl": null,
-      "networks": [
-        "Netflix"
-      ],
-      "tmdbStatus": "Returning Series",
-      "firstAirDate": null,
-      "voteAverage": null,
-      "tmdbGenres": [
-        "drama",
-        "horror",
-        "science-fiction"
-      ],
-      "homepage": null,
       "rank": 2,
-      "anticipationScore": 92
-    },
-    {
-      "listCount": 35092,
-      "title": "The Last of Us",
+      "listCount": 10203,
+      "title": "Lanterns",
       "year": 2026,
-      "overview": "Years after the events in Salt Lake City, a fragile peace is shattered and Ellie sets out on a path of revenge.",
+      "overview": "Two intergalactic cops, new recruit John Stewart and Lantern legend Hal Jordan, are drawn into a dark, earth-based mystery as they investigate a murder in the American heartland.",
       "network": "HBO",
-      "status": "returning series",
-      "genres": [
-        "drama",
-        "horror",
-        "action"
-      ],
-      "firstAired": null,
-      "runtime": null,
-      "certification": null,
-      "ids": {
-        "trakt": 200088,
-        "slug": null,
-        "tmdb": 100088,
-        "imdb": "tt3581920"
-      },
-      "posterUrl": "https://image.tmdb.org/t/p/w500/dmo6TYuuJgaYinXBPjrgG9mB5od.jpg",
-      "backdropUrl": null,
-      "networks": [
-        "HBO"
-      ],
-      "tmdbStatus": "Returning Series",
-      "firstAirDate": null,
-      "voteAverage": null,
-      "tmdbGenres": [
-        "drama",
-        "horror",
-        "action"
-      ],
-      "homepage": null,
-      "rank": 3,
-      "anticipationScore": 84
-    },
-    {
-      "listCount": 34520,
-      "title": "Severance",
-      "year": 2025,
-      "overview": "The innies push deeper into Lumon’s secrets as the line between work-self and home-self collapses.",
-      "network": "Apple TV+",
-      "status": "returning series",
-      "genres": [
-        "drama",
-        "mystery",
-        "science-fiction"
-      ],
-      "firstAired": null,
-      "runtime": null,
-      "certification": null,
-      "ids": {
-        "trakt": 195396,
-        "slug": null,
-        "tmdb": 95396,
-        "imdb": "tt11280740"
-      },
-      "posterUrl": "https://image.tmdb.org/t/p/w500/lFf6LLrQjYldcZItzOkGmMMigP7.jpg",
-      "backdropUrl": null,
-      "networks": [
-        "Apple TV+"
-      ],
-      "tmdbStatus": "Returning Series",
-      "firstAirDate": null,
-      "voteAverage": null,
-      "tmdbGenres": [
-        "drama",
-        "mystery",
-        "science-fiction"
-      ],
-      "homepage": null,
-      "rank": 4,
-      "anticipationScore": 83
-    },
-    {
-      "listCount": 31440,
-      "title": "House of the Dragon",
-      "year": 2026,
-      "overview": "The Dance of the Dragons rages on as Rhaenyra and Aegon commit the Seven Kingdoms to all-out war.",
-      "network": "HBO",
-      "status": "returning series",
-      "genres": [
-        "drama",
-        "fantasy",
-        "action"
-      ],
-      "firstAired": null,
-      "runtime": null,
-      "certification": null,
-      "ids": {
-        "trakt": 194997,
-        "slug": null,
-        "tmdb": 94997,
-        "imdb": "tt11198330"
-      },
-      "posterUrl": "https://image.tmdb.org/t/p/w500/7QMsOTMUswlwxJP0rTTZfmz2tX2.jpg",
-      "backdropUrl": null,
-      "networks": [
-        "HBO"
-      ],
-      "tmdbStatus": "Returning Series",
-      "firstAirDate": null,
-      "voteAverage": null,
-      "tmdbGenres": [
-        "drama",
-        "fantasy",
-        "action"
-      ],
-      "homepage": null,
-      "rank": 5,
-      "anticipationScore": 76
-    },
-    {
-      "listCount": 25206,
-      "title": "The Witcher",
-      "year": 2026,
-      "overview": "A new Geralt takes up the silver sword as Ciri’s destiny draws the Continent toward its breaking point.",
-      "network": "Netflix",
-      "status": "returning series",
-      "genres": [
-        "drama",
-        "action",
-        "fantasy"
-      ],
-      "firstAired": null,
-      "runtime": null,
-      "certification": null,
-      "ids": {
-        "trakt": 171912,
-        "slug": null,
-        "tmdb": 71912,
-        "imdb": "tt5180504"
-      },
-      "posterUrl": "https://image.tmdb.org/t/p/w500/7vjaCdMw15FEbXyLQTVa04URsPm.jpg",
-      "backdropUrl": null,
-      "networks": [
-        "Netflix"
-      ],
-      "tmdbStatus": "Returning Series",
-      "firstAirDate": null,
-      "voteAverage": null,
-      "tmdbGenres": [
-        "drama",
-        "action",
-        "fantasy"
-      ],
-      "homepage": null,
-      "rank": 6,
-      "anticipationScore": 61
-    },
-    {
-      "listCount": 25075,
-      "title": "Andor",
-      "year": 2025,
-      "overview": "The final stretch of Cassian Andor’s journey from thief to revolutionary, leading straight to the brink of rebellion.",
-      "network": "Disney+",
-      "status": "returning series",
+      "status": "in production",
       "genres": [
         "science-fiction",
-        "drama",
-        "action"
+        "fantasy",
+        "mystery"
       ],
-      "firstAired": null,
+      "firstAired": "2026-08-16T04:00:00.000Z",
+      "runtime": null,
+      "certification": "TV-MA",
+      "ids": {
+        "trakt": 157599,
+        "slug": "lanterns",
+        "tmdb": 95350,
+        "imdb": "tt26545992"
+      },
+      "tmdbId": 95350,
+      "posterUrl": "https://image.tmdb.org/t/p/w500/rb94rKVIzLyfWufIN7WqLvadBDH.jpg",
+      "backdropUrl": "https://image.tmdb.org/t/p/w780/moA5NNpOsSeQ2gNkOBgbMeNOl3d.jpg",
+      "networks": [
+        "HBO"
+      ],
+      "tmdbStatus": "In Production",
+      "firstAirDate": "2026-08-16",
+      "nextAirDate": "2026-08-16",
+      "lastAirDate": null,
+      "voteAverage": 0,
+      "tmdbGenres": [
+        "Sci-Fi & Fantasy",
+        "Mystery"
+      ],
+      "homepage": "https://www.hbo.com/content/lanterns",
+      "anticipationScore": 75
+    },
+    {
+      "rank": 3,
+      "listCount": 6956,
+      "title": "Lucky",
+      "year": 2026,
+      "overview": "When a multi-million-dollar heist goes sideways, con artist Lucky is forced to go on the run. Pursued by both the FBI and a ruthless crime boss, Lucky must fight for her life—and a way out.",
+      "network": "Apple TV",
+      "status": "in production",
+      "genres": [
+        "drama",
+        "crime"
+      ],
+      "firstAired": "2026-07-14T04:00:00.000Z",
+      "runtime": null,
+      "certification": "TV-MA",
+      "ids": {
+        "trakt": 265812,
+        "slug": "lucky-2026",
+        "tmdb": 278624,
+        "imdb": "tt34866681"
+      },
+      "tmdbId": 278624,
+      "posterUrl": "https://image.tmdb.org/t/p/w500/xsrkiXg8EuNNtbPtbmvCxg95gK7.jpg",
+      "backdropUrl": "https://image.tmdb.org/t/p/w780/hKXMOOvQwXiL01hfYG5nrkH0tEP.jpg",
+      "networks": [
+        "Apple TV"
+      ],
+      "tmdbStatus": "In Production",
+      "firstAirDate": "2026-07-14",
+      "nextAirDate": "2026-07-14",
+      "lastAirDate": null,
+      "voteAverage": 0,
+      "tmdbGenres": [
+        "Drama",
+        "Crime"
+      ],
+      "homepage": "https://tv.apple.com/show/umc.cmc.5qo7t3nngb2vj0m9dxkwebw1o",
+      "anticipationScore": 51
+    },
+    {
+      "rank": 4,
+      "listCount": 5322,
+      "title": "VisionQuest",
+      "year": 2026,
+      "overview": "After the events of WandaVision, White Vision struggles to connect with the memories given to him as he lacks the emotions or feelings associated with them.",
+      "network": "Disney+",
+      "status": "in production",
+      "genres": [
+        "fantasy",
+        "science-fiction"
+      ],
+      "firstAired": "2026-10-14T04:00:00.000Z",
       "runtime": null,
       "certification": null,
       "ids": {
-        "trakt": 183867,
-        "slug": null,
-        "tmdb": 83867,
-        "imdb": "tt9253284"
+        "trakt": 199379,
+        "slug": "visionquest",
+        "tmdb": 213375,
+        "imdb": "tt23112594"
       },
-      "posterUrl": "https://image.tmdb.org/t/p/w500/declVTLqWSADfBkQbahArSXjVhE.jpg",
-      "backdropUrl": null,
+      "tmdbId": 213375,
+      "posterUrl": "https://image.tmdb.org/t/p/w500/6j60tGRAjBmWRPTOEwhW6oRbPMP.jpg",
+      "backdropUrl": "https://image.tmdb.org/t/p/w780/hgo15B8eUnbEjszVV1qdV8sGz9S.jpg",
       "networks": [
         "Disney+"
       ],
-      "tmdbStatus": "Returning Series",
-      "firstAirDate": null,
-      "voteAverage": null,
+      "tmdbStatus": "In Production",
+      "firstAirDate": "2026-10-14",
+      "nextAirDate": "2026-10-14",
+      "lastAirDate": null,
+      "voteAverage": 0,
       "tmdbGenres": [
-        "science-fiction",
-        "drama",
-        "action"
+        "Sci-Fi & Fantasy"
       ],
-      "homepage": null,
-      "rank": 7,
-      "anticipationScore": 60
+      "homepage": "https://www.marvel.com/tv-shows/visionquest/1",
+      "anticipationScore": 39
     },
     {
-      "listCount": 24664,
-      "title": "Euphoria",
+      "rank": 5,
+      "listCount": 3706,
+      "title": "Stuart Fails to Save the Universe",
       "year": 2026,
-      "overview": "Rue and the students of East Highland return for a turbulent new chapter of addiction, love and identity.",
-      "network": "HBO",
-      "status": "returning series",
-      "genres": [
-        "drama"
-      ],
-      "firstAired": null,
-      "runtime": null,
-      "certification": null,
-      "ids": {
-        "trakt": 185552,
-        "slug": null,
-        "tmdb": 85552,
-        "imdb": "tt8772296"
-      },
-      "posterUrl": "https://image.tmdb.org/t/p/w500/jtnfNzqZwN4E32FGGxx1YZaBWWf.jpg",
-      "backdropUrl": null,
-      "networks": [
-        "HBO"
-      ],
-      "tmdbStatus": "Returning Series",
-      "firstAirDate": null,
-      "voteAverage": null,
-      "tmdbGenres": [
-        "drama"
-      ],
-      "homepage": null,
-      "rank": 8,
-      "anticipationScore": 59
-    },
-    {
-      "listCount": 21539,
-      "title": "Fallout",
-      "year": 2026,
-      "overview": "Lucy and the Ghoul press on across the irradiated wasteland of New Vegas in search of answers about the old world.",
-      "network": "Prime Video",
-      "status": "returning series",
-      "genres": [
-        "science-fiction",
-        "drama",
-        "action"
-      ],
-      "firstAired": null,
-      "runtime": null,
-      "certification": null,
-      "ids": {
-        "trakt": 206379,
-        "slug": null,
-        "tmdb": 106379,
-        "imdb": "tt12637874"
-      },
-      "posterUrl": "https://image.tmdb.org/t/p/w500/AnsSKR9LuK0vReFLLEbbsHJ7d8X.jpg",
-      "backdropUrl": null,
-      "networks": [
-        "Prime Video"
-      ],
-      "tmdbStatus": "Returning Series",
-      "firstAirDate": null,
-      "voteAverage": null,
-      "tmdbGenres": [
-        "science-fiction",
-        "drama",
-        "action"
-      ],
-      "homepage": null,
-      "rank": 9,
-      "anticipationScore": 52
-    },
-    {
-      "listCount": 19245,
-      "title": "Squid Game",
-      "year": 2025,
-      "overview": "Gi-hun re-enters the deadly games, determined to tear them down from the inside.",
-      "network": "Netflix",
-      "status": "returning series",
-      "genres": [
-        "action",
-        "mystery",
-        "drama"
-      ],
-      "firstAired": null,
-      "runtime": null,
-      "certification": null,
-      "ids": {
-        "trakt": 193405,
-        "slug": null,
-        "tmdb": 93405,
-        "imdb": "tt10919420"
-      },
-      "posterUrl": "https://image.tmdb.org/t/p/w500/dDlEmu3EZ0Pgg93K2SVNLCjCSvE.jpg",
-      "backdropUrl": null,
-      "networks": [
-        "Netflix"
-      ],
-      "tmdbStatus": "Returning Series",
-      "firstAirDate": null,
-      "voteAverage": null,
-      "tmdbGenres": [
-        "action",
-        "mystery",
-        "drama"
-      ],
-      "homepage": null,
-      "rank": 10,
-      "anticipationScore": 46
-    },
-    {
-      "listCount": 18172,
-      "title": "Peacemaker",
-      "year": 2025,
-      "overview": "Christopher Smith confronts a multiverse of alternate lives — and the temptation to abandon the one he has.",
+      "overview": "Comic book store owner Stuart Bloom is tasked with restoring reality after he breaks a device built by Sheldon and Leonard, accidentally bringing about a multiverse Armageddon. Stuart is aided in this quest by his girlfriend Denise, geologist friend Bert, and quantum physicist/all-around pain in the ass Barry Kripke.",
       "network": "HBO Max",
-      "status": "returning series",
+      "status": "in production",
       "genres": [
-        "action",
         "comedy",
+        "fantasy",
         "science-fiction"
       ],
-      "firstAired": null,
+      "firstAired": "2026-07-24T01:00:00.000Z",
       "runtime": null,
-      "certification": null,
+      "certification": "TV-MA",
       "ids": {
-        "trakt": 210492,
-        "slug": null,
-        "tmdb": 110492,
-        "imdb": "tt13146488"
+        "trakt": 280856,
+        "slug": "stuart-fails-to-save-the-universe",
+        "tmdb": 287620,
+        "imdb": "tt27497393"
       },
-      "posterUrl": "https://image.tmdb.org/t/p/w500/hE3LRZAY84fG19a18pzpkZERjTE.jpg",
-      "backdropUrl": null,
+      "tmdbId": 287620,
+      "posterUrl": "https://image.tmdb.org/t/p/w500/iQbTbwmLX5Nh1nlH21YUJPWt3Zo.jpg",
+      "backdropUrl": "https://image.tmdb.org/t/p/w780/2ngdvUiEKW8Q37ta8BBdydE2cuq.jpg",
       "networks": [
         "HBO Max"
       ],
-      "tmdbStatus": "Returning Series",
-      "firstAirDate": null,
-      "voteAverage": null,
+      "tmdbStatus": "In Production",
+      "firstAirDate": "2026-07-23",
+      "nextAirDate": "2026-07-23",
+      "lastAirDate": null,
+      "voteAverage": 0,
       "tmdbGenres": [
-        "action",
-        "comedy",
-        "science-fiction"
+        "Comedy",
+        "Sci-Fi & Fantasy"
       ],
-      "homepage": null,
-      "rank": 11,
-      "anticipationScore": 44
+      "homepage": "https://www.hbomax.com/shows/1130c5ba-e71f-43e0-8de3-487dfdb49c11",
+      "anticipationScore": 27
     },
     {
-      "listCount": 18138,
-      "title": "The Boys",
+      "rank": 6,
+      "listCount": 3286,
+      "title": "Crystal Lake",
       "year": 2026,
-      "overview": "The fight against Homelander reaches its endgame as Butcher and the Boys run out of time and allies.",
-      "network": "Prime Video",
-      "status": "returning series",
+      "overview": "A prequel series set in the Friday the 13th universe centered on Pamela Voorhees.",
+      "network": "Peacock",
+      "status": "in production",
       "genres": [
-        "action",
-        "comedy",
-        "science-fiction"
+        "mystery",
+        "horror",
+        "drama"
       ],
-      "firstAired": null,
+      "firstAired": "2026-10-15T04:00:00.000Z",
       "runtime": null,
       "certification": null,
       "ids": {
-        "trakt": 176479,
-        "slug": null,
-        "tmdb": 76479,
-        "imdb": "tt1190634"
+        "trakt": 199470,
+        "slug": "crystal-lake",
+        "tmdb": 213562,
+        "imdb": "tt23148340"
       },
-      "posterUrl": "https://image.tmdb.org/t/p/w500/2zmtNBksTQRRDhNmoFs9GVT7CK0.jpg",
+      "tmdbId": 213562,
+      "posterUrl": null,
       "backdropUrl": null,
+      "networks": [
+        "Peacock"
+      ],
+      "tmdbStatus": "In Production",
+      "firstAirDate": "2026-10-15",
+      "nextAirDate": "2026-10-15",
+      "lastAirDate": null,
+      "voteAverage": 0,
+      "tmdbGenres": [
+        "Mystery",
+        "Drama"
+      ],
+      "homepage": null,
+      "anticipationScore": 24
+    },
+    {
+      "rank": 7,
+      "listCount": 2069,
+      "title": "Power: Origins",
+      "year": 2026,
+      "overview": "Follow Ghost and Tommy as ambitious young entrepreneurs on the rise, determined to make their mark on the streets of New York City.",
+      "network": "STARZ",
+      "status": "planned",
+      "genres": [
+        "crime",
+        "drama"
+      ],
+      "firstAired": "2026-12-07T05:00:00.000Z",
+      "runtime": null,
+      "certification": null,
+      "ids": {
+        "trakt": 264372,
+        "slug": "power-origins",
+        "tmdb": 277445,
+        "imdb": "tt31715584"
+      },
+      "tmdbId": 277445,
+      "posterUrl": null,
+      "backdropUrl": null,
+      "networks": [
+        "STARZ"
+      ],
+      "tmdbStatus": "Planned",
+      "firstAirDate": null,
+      "nextAirDate": null,
+      "lastAirDate": null,
+      "voteAverage": 0,
+      "tmdbGenres": [
+        "Crime",
+        "Drama"
+      ],
+      "homepage": null,
+      "anticipationScore": 15
+    },
+    {
+      "rank": 8,
+      "listCount": 2010,
+      "title": "Elle",
+      "year": 2026,
+      "overview": "Follow Elle Woods in high school as we learn about the life experiences that shaped her into the iconic young woman we came to know and love in the first Legally Blonde film.",
+      "network": "Prime Video",
+      "status": "returning series",
+      "genres": [
+        "comedy",
+        "drama"
+      ],
+      "firstAired": "2026-07-01T08:00:00.000Z",
+      "runtime": null,
+      "certification": "TV-14",
+      "ids": {
+        "trakt": 239856,
+        "slug": "elle",
+        "tmdb": 254420,
+        "imdb": "tt32020831"
+      },
+      "tmdbId": 254420,
+      "posterUrl": "https://image.tmdb.org/t/p/w500/u0Vj7zhVK0HYxsS3VMzkU37Pebp.jpg",
+      "backdropUrl": "https://image.tmdb.org/t/p/w780/2JjyMzJxWcfO5boofm8esEVFqvZ.jpg",
       "networks": [
         "Prime Video"
       ],
       "tmdbStatus": "Returning Series",
-      "firstAirDate": null,
-      "voteAverage": null,
+      "firstAirDate": "2026-07-01",
+      "nextAirDate": "2026-07-01",
+      "lastAirDate": null,
+      "voteAverage": 0,
       "tmdbGenres": [
-        "action",
-        "comedy",
-        "science-fiction"
+        "Comedy",
+        "Drama"
       ],
-      "homepage": null,
-      "rank": 12,
-      "anticipationScore": 44
+      "homepage": "https://www.amazon.com/dp/B0GXC14CMG",
+      "anticipationScore": 15
     },
     {
-      "listCount": 14035,
-      "title": "Daredevil: Born Again",
+      "rank": 9,
+      "listCount": 1815,
+      "title": "The Westies",
       "year": 2026,
-      "overview": "Matt Murdock and Wilson Fisk are pulled back into their violent orbit as Hell’s Kitchen edges toward chaos.",
-      "network": "Disney+",
-      "status": "returning series",
+      "overview": "As the Javits Center construction project ignites a battle for profit in early 1980s Hell's Kitchen, a generational rift threatens the uneasy peace between violent Irish gang the Westies and the Mafia, and draws FBI heat.",
+      "network": "MGM+",
+      "status": "in production",
       "genres": [
-        "action",
-        "crime",
-        "drama"
+        "drama",
+        "crime"
       ],
-      "firstAired": null,
+      "firstAired": "2026-07-12T04:00:00.000Z",
       "runtime": null,
-      "certification": null,
+      "certification": "TV-MA",
       "ids": {
-        "trakt": 302555,
-        "slug": null,
-        "tmdb": 202555,
-        "imdb": "tt18923754"
+        "trakt": 279635,
+        "slug": "the-westies",
+        "tmdb": 286709,
+        "imdb": "tt31849235"
       },
-      "posterUrl": "https://image.tmdb.org/t/p/w500/khYxPGKxFw9SbjG3l6gA4nQqyQt.jpg",
-      "backdropUrl": null,
+      "tmdbId": 286709,
+      "posterUrl": "https://image.tmdb.org/t/p/w500/6nNxw6SsbEtSpktVEGdoYDqPH7C.jpg",
+      "backdropUrl": "https://image.tmdb.org/t/p/w780/5JCY0Cf7lBQPMhvBIkcb4mnFGMt.jpg",
       "networks": [
-        "Disney+"
+        "MGM+"
       ],
-      "tmdbStatus": "Returning Series",
-      "firstAirDate": null,
-      "voteAverage": null,
+      "tmdbStatus": "In Production",
+      "firstAirDate": "2026-07-12",
+      "nextAirDate": "2026-07-12",
+      "lastAirDate": null,
+      "voteAverage": 0,
       "tmdbGenres": [
-        "action",
-        "crime",
-        "drama"
+        "Drama",
+        "Crime"
       ],
-      "homepage": null,
-      "rank": 13,
-      "anticipationScore": 34
+      "homepage": "https://www.mgmplus.com/series/the-westies",
+      "anticipationScore": 13
     },
     {
-      "listCount": 12604,
-      "title": "One Piece",
+      "rank": 10,
+      "listCount": 1600,
+      "title": "The Hawk",
       "year": 2026,
-      "overview": "The Straw Hats sail into the Grand Line as Luffy’s hunt for the One Piece draws new enemies and allies.",
+      "overview": "On the back nine of his career, golf legend Lonnie \"The Hawk\" Hawkins chases one final major — and drags everyone he loves into the chaos.",
       "network": "Netflix",
-      "status": "returning series",
+      "status": "in production",
       "genres": [
-        "action",
-        "adventure",
         "comedy"
       ],
-      "firstAired": null,
+      "firstAired": "2026-07-16T04:00:00.000Z",
+      "runtime": null,
+      "certification": "TV-MA",
+      "ids": {
+        "trakt": 240024,
+        "slug": "the-hawk-2026",
+        "tmdb": 254528,
+        "imdb": "tt27550719"
+      },
+      "tmdbId": 254528,
+      "posterUrl": "https://image.tmdb.org/t/p/w500/klwdBtkpdW1RIqOl0dkSWJ7mtjq.jpg",
+      "backdropUrl": "https://image.tmdb.org/t/p/w780/g9gWKJJdRknKGXDGh7VGTp6SIOb.jpg",
+      "networks": [
+        "Netflix"
+      ],
+      "tmdbStatus": "In Production",
+      "firstAirDate": "2026-07-16",
+      "nextAirDate": "2026-07-16",
+      "lastAirDate": null,
+      "voteAverage": 0,
+      "tmdbGenres": [
+        "Comedy"
+      ],
+      "homepage": "https://www.netflix.com/title/81695311",
+      "anticipationScore": 12
+    },
+    {
+      "rank": 11,
+      "listCount": 1395,
+      "title": "Life, Larry and the Pursuit of Unhappiness",
+      "year": 2026,
+      "overview": "An improvised, comedic approach to major events in American history in celebration of the 250th anniversary of the founding of the United States.",
+      "network": "HBO",
+      "status": "returning series",
+      "genres": [
+        "comedy"
+      ],
+      "firstAired": "2026-06-27T01:00:00.000Z",
+      "runtime": null,
+      "certification": "TV-MA",
+      "ids": {
+        "trakt": 291193,
+        "slug": "life-larry-and-the-pursuit-of-unhappiness",
+        "tmdb": 295780,
+        "imdb": "tt37543147"
+      },
+      "tmdbId": 295780,
+      "posterUrl": "https://image.tmdb.org/t/p/w500/eA8lwlHAuFQrZzek25xgGZCgImu.jpg",
+      "backdropUrl": "https://image.tmdb.org/t/p/w780/6Fbrrf2jaYJ8s3nnnuhhvvDjTZN.jpg",
+      "networks": [
+        "HBO"
+      ],
+      "tmdbStatus": "Returning Series",
+      "firstAirDate": "2026-06-26",
+      "nextAirDate": "2026-06-26",
+      "lastAirDate": null,
+      "voteAverage": 0,
+      "tmdbGenres": [
+        "Comedy"
+      ],
+      "homepage": "https://www.hbo.com/content/life-larry-and-the-pursuit-of-unhappiness",
+      "anticipationScore": 10
+    },
+    {
+      "rank": 12,
+      "listCount": 1291,
+      "title": "Little House on the Prairie",
+      "year": 2026,
+      "overview": "The close-knit Ingalls family builds a new life on the Western frontier, where the joys of nature and the struggle for survival are deeply intertwined.",
+      "network": "Netflix",
+      "status": "in production",
+      "genres": [
+        "drama",
+        "western"
+      ],
+      "firstAired": "2026-07-09T04:00:00.000Z",
+      "runtime": null,
+      "certification": "TV-PG",
+      "ids": {
+        "trakt": 275053,
+        "slug": "little-house-on-the-prairie-2026",
+        "tmdb": 283304,
+        "imdb": "tt13829154"
+      },
+      "tmdbId": 283304,
+      "posterUrl": "https://image.tmdb.org/t/p/w500/oWUGSadxC9vQPOCeHDDVfDezmQC.jpg",
+      "backdropUrl": "https://image.tmdb.org/t/p/w780/fBieUo3SdItUrXZE16YxbpjwXIe.jpg",
+      "networks": [
+        "Netflix"
+      ],
+      "tmdbStatus": "In Production",
+      "firstAirDate": "2026-07-09",
+      "nextAirDate": "2026-07-09",
+      "lastAirDate": null,
+      "voteAverage": 0,
+      "tmdbGenres": [
+        "Drama",
+        "Western"
+      ],
+      "homepage": "https://www.netflix.com/title/81748089",
+      "anticipationScore": 9
+    },
+    {
+      "rank": 13,
+      "listCount": 1254,
+      "title": "THE GHOST IN THE SHELL",
+      "year": 2026,
+      "overview": "In the year 2029, Niihama City has become a technologically advanced metropolis. Due to great improvements in cybernetics, its citizens are able to replace their limbs with robotic parts. The world is now more interconnected than ever before, and the city's Public Security Section 9 is responsible for combating corruption, terrorism, and other dangerous threats following this shift toward globalisation.",
+      "network": "Kansai TV",
+      "status": "in production",
+      "genres": [
+        "anime",
+        "fantasy",
+        "science-fiction",
+        "action",
+        "adventure"
+      ],
+      "firstAired": "2026-07-07T14:00:00.000Z",
       "runtime": null,
       "certification": null,
       "ids": {
-        "trakt": 137854,
-        "slug": null,
-        "tmdb": 37854,
-        "imdb": "tt11737520"
+        "trakt": 241679,
+        "slug": "the-ghost-in-the-shell",
+        "tmdb": 255358,
+        "imdb": "tt36517689"
       },
-      "posterUrl": "https://image.tmdb.org/t/p/w500/cZ86g0xL1uXGGn4Bp2chPpGNDJL.jpg",
+      "tmdbId": 255358,
+      "posterUrl": "https://image.tmdb.org/t/p/w500/eGRZ1JHbJHe02UCOsV5MUlVRAEO.jpg",
+      "backdropUrl": "https://image.tmdb.org/t/p/w780/app8YXZ4NS0hMTYZuIA6zx92xVm.jpg",
+      "networks": [
+        "Fuji TV",
+        "Kansai TV"
+      ],
+      "tmdbStatus": "In Production",
+      "firstAirDate": "2026-07-07",
+      "nextAirDate": "2026-07-07",
+      "lastAirDate": null,
+      "voteAverage": 0,
+      "tmdbGenres": [
+        "Animation",
+        "Sci-Fi & Fantasy",
+        "Action & Adventure"
+      ],
+      "homepage": "https://www.theghostintheshell-anime.jp",
+      "anticipationScore": 9
+    },
+    {
+      "rank": 14,
+      "listCount": 1247,
+      "title": "Ride or Die",
+      "year": 2026,
+      "overview": "Best friends, Judith and Debbie, know everything about each other … well, almost everything. Judith has been living a double life that Debbie knows nothing about: she is a highly trained assassin. When a hit goes horribly wrong, Judith and Debbie must go on the run together and work to repair their broken friendship—all while being targeted by a mysterious enemy who wants them dead. And only together, can they solve this layered mystery.",
+      "network": "Prime Video",
+      "status": "in production",
+      "genres": [
+        "action",
+        "adventure"
+      ],
+      "firstAired": "2026-07-15T07:00:00.000Z",
+      "runtime": null,
+      "certification": null,
+      "ids": {
+        "trakt": 217937,
+        "slug": "ride-or-die",
+        "tmdb": 241882,
+        "imdb": "tt30494226"
+      },
+      "tmdbId": 241882,
+      "posterUrl": "https://image.tmdb.org/t/p/w500/uWqEnvpwa2U28QheMdUdEcr4U0M.jpg",
+      "backdropUrl": "https://image.tmdb.org/t/p/w780/sHl0UR4smyYIv9cYyeNLQlkTUR6.jpg",
+      "networks": [
+        "Prime Video"
+      ],
+      "tmdbStatus": "In Production",
+      "firstAirDate": "2026-07-15",
+      "nextAirDate": "2026-07-15",
+      "lastAirDate": null,
+      "voteAverage": 0,
+      "tmdbGenres": [
+        "Action & Adventure"
+      ],
+      "homepage": "https://www.amazon.com/dp/B0H1MBNDTL",
+      "anticipationScore": 9
+    },
+    {
+      "rank": 15,
+      "listCount": 1197,
+      "title": "TRINITY",
+      "year": 2026,
+      "overview": "A heroic female naval officer becomes involved with the outwardly charismatic Secretary of Defense, only to discover that he may be at the heart of a dangerous conspiracy.",
+      "network": "Netflix",
+      "status": "in production",
+      "genres": [
+        "drama"
+      ],
+      "firstAired": "2026-07-15T23:00:00.000Z",
+      "runtime": null,
+      "certification": null,
+      "ids": {
+        "trakt": 289469,
+        "slug": "trinity-2026",
+        "tmdb": 294607,
+        "imdb": "tt37433759"
+      },
+      "tmdbId": 294607,
+      "posterUrl": null,
       "backdropUrl": null,
       "networks": [
         "Netflix"
       ],
-      "tmdbStatus": "Returning Series",
-      "firstAirDate": null,
-      "voteAverage": null,
+      "tmdbStatus": "In Production",
+      "firstAirDate": "2026-07-16",
+      "nextAirDate": "2026-07-16",
+      "lastAirDate": null,
+      "voteAverage": 0,
       "tmdbGenres": [
-        "action",
-        "adventure",
-        "comedy"
+        "Drama"
       ],
-      "homepage": null,
-      "rank": 14,
-      "anticipationScore": 30
+      "homepage": "https://www.netflix.com/title/81696435",
+      "anticipationScore": 9
     },
     {
-      "listCount": 10988,
-      "title": "Alien: Earth",
-      "year": 2025,
-      "overview": "When a deep-space vessel crashes to Earth, a young woman and a band of soldiers make a terrifying discovery.",
-      "network": "FX",
+      "rank": 16,
+      "listCount": 986,
+      "title": "BeLIEf",
+      "year": 2026,
+      "overview": "When a revengeful heretic threatens to use a telekinetic teenager to destroy all religion, a disillusioned renegade realises he must stop them enacting an apocalyptic unholy war.",
+      "network": null,
       "status": "returning series",
       "genres": [
+        "fantasy",
         "science-fiction",
-        "horror",
-        "drama"
+        "crime",
+        "action",
+        "adventure"
       ],
-      "firstAired": null,
+      "firstAired": "2026-09-30T23:00:00.000Z",
       "runtime": null,
       "certification": null,
       "ids": {
-        "trakt": 257239,
-        "slug": null,
-        "tmdb": 157239,
-        "imdb": "tt10677788"
+        "trakt": 292384,
+        "slug": "belief-2026",
+        "tmdb": 296264,
+        "imdb": "tt37532660"
       },
-      "posterUrl": "https://image.tmdb.org/t/p/w500/wWba3TaojhK7NdycRhoQpsG0FaH.jpg",
-      "backdropUrl": null,
-      "networks": [
-        "FX"
-      ],
+      "tmdbId": 296264,
+      "posterUrl": "https://image.tmdb.org/t/p/w500/9MahNY1KgjIjNGuue4bBQgL7NYy.jpg",
+      "backdropUrl": "https://image.tmdb.org/t/p/w780/llDkIKyU2DD2dXzGEfAaNeyUGH2.jpg",
+      "networks": [],
       "tmdbStatus": "Returning Series",
-      "firstAirDate": null,
-      "voteAverage": null,
+      "firstAirDate": "2026-10-01",
+      "nextAirDate": "2026-10-01",
+      "lastAirDate": null,
+      "voteAverage": 0,
       "tmdbGenres": [
-        "science-fiction",
-        "horror",
-        "drama"
+        "Sci-Fi & Fantasy",
+        "Crime",
+        "Action & Adventure"
+      ],
+      "homepage": "https://rashproductions.co.uk/belief",
+      "anticipationScore": 7
+    },
+    {
+      "rank": 17,
+      "listCount": 943,
+      "title": "Anna Pigeon",
+      "year": 2026,
+      "overview": "Anna Pigeon is a former city slicker who became a park ranger after a devastating loss changed the trajectory of her life forever. While Anna tries to outrun her demons, her focus turns to solving crimes that have taken place within national park grounds, no matter who or what gets in her way.",
+      "network": "USA Network",
+      "status": "in production",
+      "genres": [
+        "drama",
+        "mystery",
+        "crime"
+      ],
+      "firstAired": "2026-08-08T02:00:00.000Z",
+      "runtime": null,
+      "certification": null,
+      "ids": {
+        "trakt": 285533,
+        "slug": "anna-pigeon",
+        "tmdb": 291350,
+        "imdb": "tt36937503"
+      },
+      "tmdbId": 291350,
+      "posterUrl": "https://image.tmdb.org/t/p/w500/qQ7nkSvxqFyILu0h2q0hNI6bZTi.jpg",
+      "backdropUrl": "https://image.tmdb.org/t/p/w780/wPXTBdO4gvczVmYxjRi7pFqotgw.jpg",
+      "networks": [
+        "USA Network"
+      ],
+      "tmdbStatus": "In Production",
+      "firstAirDate": "2026-08-07",
+      "nextAirDate": "2026-08-07",
+      "lastAirDate": null,
+      "voteAverage": 0,
+      "tmdbGenres": [
+        "Drama",
+        "Mystery",
+        "Crime"
       ],
       "homepage": null,
-      "rank": 15,
-      "anticipationScore": 26
+      "anticipationScore": 7
+    },
+    {
+      "rank": 18,
+      "listCount": 912,
+      "title": "Scooby-Doo: Origins",
+      "year": 2027,
+      "overview": "During their final summer at camp, old friends Shaggy and Daphne get embroiled in a haunting mystery surrounding a lonely, lost Great Dane puppy who may have been a witness to a supernatural murder. Alongside the pragmatic and scientific townie Velma and the strange but ever-so-handsome new kid Freddy, they set out to solve the case that's pulling each of them into a creepy nightmare that threatens to expose all of their secrets.",
+      "network": "Netflix",
+      "status": "in production",
+      "genres": [
+        "mystery",
+        "comedy",
+        "fantasy",
+        "science-fiction"
+      ],
+      "firstAired": "2027-04-08T04:00:00.000Z",
+      "runtime": null,
+      "certification": null,
+      "ids": {
+        "trakt": 237580,
+        "slug": "scooby-doo-origins",
+        "tmdb": 253124,
+        "imdb": "tt32244582"
+      },
+      "tmdbId": 253124,
+      "posterUrl": "https://image.tmdb.org/t/p/w500/pm2dMqADFQBQnjFBZS7ez6Tw3IP.jpg",
+      "backdropUrl": "https://image.tmdb.org/t/p/w780/8WWcvMVO4mwCyxkmeVQFh926vIn.jpg",
+      "networks": [
+        "Netflix"
+      ],
+      "tmdbStatus": "In Production",
+      "firstAirDate": null,
+      "nextAirDate": null,
+      "lastAirDate": null,
+      "voteAverage": 0,
+      "tmdbGenres": [
+        "Comedy",
+        "Mystery",
+        "Sci-Fi & Fantasy"
+      ],
+      "homepage": "https://www.netflix.com/ua/title/81777028?l=uk",
+      "anticipationScore": 7
+    },
+    {
+      "rank": 19,
+      "listCount": 899,
+      "title": "The Five Star Weekend",
+      "year": 2026,
+      "overview": "After her husband's unexpected death and a very public breakdown, famed cook Hollis hosts her best friends for an elaborate weekend on Nantucket.",
+      "network": "Peacock",
+      "status": "in production",
+      "genres": [
+        "drama"
+      ],
+      "firstAired": "2026-07-16T04:00:00.000Z",
+      "runtime": null,
+      "certification": null,
+      "ids": {
+        "trakt": 274938,
+        "slug": "the-five-star-weekend",
+        "tmdb": 283151,
+        "imdb": "tt35587659"
+      },
+      "tmdbId": 283151,
+      "posterUrl": "https://image.tmdb.org/t/p/w500/A0Y6xf8IDDL2dBV3mvu8fWPFYLG.jpg",
+      "backdropUrl": "https://image.tmdb.org/t/p/w780/iXp8NomUApw6JVyXssPHLvqkHWC.jpg",
+      "networks": [
+        "Peacock"
+      ],
+      "tmdbStatus": "In Production",
+      "firstAirDate": "2026-07-16",
+      "nextAirDate": "2026-07-16",
+      "lastAirDate": null,
+      "voteAverage": 0,
+      "tmdbGenres": [
+        "Drama"
+      ],
+      "homepage": "https://www.peacocktv.com/stream-tv/the-five-star-weekend",
+      "anticipationScore": 7
+    },
+    {
+      "rank": 20,
+      "listCount": 792,
+      "title": "Smoking Behind the Supermarket with You",
+      "year": 2026,
+      "overview": "Meet Sasaki, an overworked, middle-aged office worker. His days are marked only by the passing of more unrewarding corporate drudgery. Smoking helps take the edge off, but other than that, the only bright spot of his day is when he goes to the nearby supermarket and sees Yamada's smiling face. So, one evening after yet another exhausting day, he heads to the supermarket to find he missed Yamada's shift. Dejected, he decides to go find a smoking area but discovers there isn’t one to be found. Just as he’s about to leave, a girl in a biker jacket named Tayama asks him to join her at a secret smoking area!",
+      "network": "MBC",
+      "status": "returning series",
+      "genres": [
+        "anime",
+        "romance",
+        "drama",
+        "comedy"
+      ],
+      "firstAired": "2026-07-09T14:45:00.000Z",
+      "runtime": 25,
+      "certification": "TV-14",
+      "ids": {
+        "trakt": 292359,
+        "slug": "smoking-behind-the-supermarket-with-you",
+        "tmdb": 296286,
+        "imdb": "tt37614297"
+      },
+      "tmdbId": 296286,
+      "posterUrl": "https://image.tmdb.org/t/p/w500/gHVfuuOXPVs0ltFbOZQjxpXtSSH.jpg",
+      "backdropUrl": "https://image.tmdb.org/t/p/w780/gkmE41A5ev5M299hLgX3JrWAM16.jpg",
+      "networks": [
+        "MBS",
+        "TBS",
+        "CBC",
+        "Tulip Television",
+        "SBC",
+        "BSN",
+        "tys",
+        "NBC",
+        "HBC",
+        "RKK",
+        "i-Television",
+        "SBS",
+        "IBC",
+        "BSS",
+        "MRO",
+        "OBS",
+        "TUF",
+        "RSK",
+        "TUY",
+        "tbc",
+        "RKB",
+        "KUTV",
+        "RBC",
+        "UTY",
+        "RCC",
+        "MRT",
+        "ATV",
+        "MBC"
+      ],
+      "tmdbStatus": "Returning Series",
+      "firstAirDate": "2026-07-09",
+      "nextAirDate": "2026-07-09",
+      "lastAirDate": null,
+      "voteAverage": 0,
+      "tmdbGenres": [
+        "Animation",
+        "Drama",
+        "Comedy"
+      ],
+      "homepage": "https://yanisuu.com",
+      "anticipationScore": 6
+    },
+    {
+      "rank": 21,
+      "listCount": 562,
+      "title": "BLACK TORCH",
+      "year": 2026,
+      "overview": "Although he may appear rough-and-tumble, Jiro Azuma's compassionate side emerges when it comes to the furry critters he can communicate with. But Jiro's soft spot for animals gets him in major trouble when a suspicious stray cat fuses with him, granting him exceptional power but also dragging him into humanity's hidden battle against powerful Japanese spirits, mononoke.",
+      "network": null,
+      "status": "in production",
+      "genres": [
+        "anime",
+        "mystery",
+        "action",
+        "adventure",
+        "fantasy",
+        "science-fiction"
+      ],
+      "firstAired": "2026-07-04T13:00:00.000Z",
+      "runtime": null,
+      "certification": null,
+      "ids": {
+        "trakt": 278722,
+        "slug": "black-torch",
+        "tmdb": 285993,
+        "imdb": "tt37532893"
+      },
+      "tmdbId": 285993,
+      "posterUrl": "https://image.tmdb.org/t/p/w500/jTcfkMTkvQo4rpw66O7Iw8EfbSd.jpg",
+      "backdropUrl": "https://image.tmdb.org/t/p/w780/qiOnISVoel2snYdxubdTAZjY8YE.jpg",
+      "networks": [],
+      "tmdbStatus": "In Production",
+      "firstAirDate": "2026-07-04",
+      "nextAirDate": "2026-07-04",
+      "lastAirDate": null,
+      "voteAverage": 0,
+      "tmdbGenres": [
+        "Animation",
+        "Mystery",
+        "Action & Adventure",
+        "Sci-Fi & Fantasy"
+      ],
+      "homepage": "https://blacktorch-anime.com",
+      "anticipationScore": 4
+    },
+    {
+      "rank": 22,
+      "listCount": 560,
+      "title": "Ricky Gervais Alley Cats",
+      "year": 2026,
+      "overview": "Outrageous misadventures run wild as feral cats cause chaos on the streets in this no-holds-barred animated comedy from Ricky Gervais.",
+      "network": "Netflix",
+      "status": "in production",
+      "genres": [
+        "animation",
+        "comedy"
+      ],
+      "firstAired": "2026-08-06T23:00:00.000Z",
+      "runtime": null,
+      "certification": "TV-MA",
+      "ids": {
+        "trakt": 298535,
+        "slug": "ricky-gervais-alley-cats",
+        "tmdb": 300480,
+        "imdb": "tt38264832"
+      },
+      "tmdbId": 300480,
+      "posterUrl": "https://image.tmdb.org/t/p/w500/mWC77mH2Nv7KMP8vGzwwCVkhsWu.jpg",
+      "backdropUrl": "https://image.tmdb.org/t/p/w780/w7yWr1UM413lOAPt2XS7TVALWrg.jpg",
+      "networks": [
+        "Netflix"
+      ],
+      "tmdbStatus": "In Production",
+      "firstAirDate": "2026-08-07",
+      "nextAirDate": "2026-08-07",
+      "lastAirDate": null,
+      "voteAverage": 0,
+      "tmdbGenres": [
+        "Animation",
+        "Comedy"
+      ],
+      "homepage": "https://www.netflix.com/title/81658840",
+      "anticipationScore": 4
+    },
+    {
+      "rank": 23,
+      "listCount": 549,
+      "title": "Adventure Time: Side Quests",
+      "year": 2026,
+      "overview": "Young hero Finn and his magical dog best friend Jake embark on adventures across the fantastical land of Ooo — partying with cloud people and punching evil in the butt along the way.",
+      "network": "Disney+",
+      "status": "returning series",
+      "genres": [
+        "animation",
+        "action",
+        "adventure",
+        "fantasy",
+        "science-fiction"
+      ],
+      "firstAired": "2026-06-29T04:00:00.000Z",
+      "runtime": null,
+      "certification": "TV-PG",
+      "ids": {
+        "trakt": 244064,
+        "slug": "adventure-time-side-quests",
+        "tmdb": 256694,
+        "imdb": "tt32603995"
+      },
+      "tmdbId": 256694,
+      "posterUrl": "https://image.tmdb.org/t/p/w500/tDAObAvUx2tw4ZM6ohqo06pqQyW.jpg",
+      "backdropUrl": "https://image.tmdb.org/t/p/w780/disCM8ovfW43KUYSGWGqdJ0BY3d.jpg",
+      "networks": [
+        "Hulu",
+        "Disney+"
+      ],
+      "tmdbStatus": "Returning Series",
+      "firstAirDate": "2026-06-29",
+      "nextAirDate": "2026-06-29",
+      "lastAirDate": null,
+      "voteAverage": 0,
+      "tmdbGenres": [
+        "Animation",
+        "Action & Adventure",
+        "Sci-Fi & Fantasy"
+      ],
+      "homepage": null,
+      "anticipationScore": 4
+    },
+    {
+      "rank": 24,
+      "listCount": 541,
+      "title": "The Good Daughter",
+      "year": 2026,
+      "overview": "Sisters Charlotte and Samantha Quinn have spent the last twenty-eight years trying to piece together the lives that were fractured by a single night of violence. When another attack splinters the small town of Pikeville, Charlotte is the first witness on the scene. Now a lawyer like her father, she’s forced to confront her own demons as the case twists through one shocking revelation after another. In the end, both she and Samantha find themselves wondering if the price of being the good daughter was worth it after all.",
+      "network": "Peacock",
+      "status": "in production",
+      "genres": [
+        "drama",
+        "mystery"
+      ],
+      "firstAired": "2026-11-12T05:00:00.000Z",
+      "runtime": null,
+      "certification": null,
+      "ids": {
+        "trakt": 231566,
+        "slug": "the-good-daughter-2026",
+        "tmdb": 249565,
+        "imdb": "tt31842126"
+      },
+      "tmdbId": 249565,
+      "posterUrl": null,
+      "backdropUrl": null,
+      "networks": [
+        "Peacock"
+      ],
+      "tmdbStatus": "In Production",
+      "firstAirDate": "2026-11-12",
+      "nextAirDate": "2026-11-12",
+      "lastAirDate": null,
+      "voteAverage": 0,
+      "tmdbGenres": [
+        "Drama",
+        "Mystery"
+      ],
+      "homepage": null,
+      "anticipationScore": 4
+    },
+    {
+      "rank": 25,
+      "listCount": 482,
+      "title": "Sparks of Tomorrow",
+      "year": 2026,
+      "overview": "In steam-powered Kyoto, a boy grieving his brother meets a girl hiding her dreams as they seek the secrets of the 20th-Century Electrical Catalog.",
+      "network": "Tokyo MX",
+      "status": "in production",
+      "genres": [
+        "anime",
+        "drama",
+        "fantasy",
+        "science-fiction",
+        "romance"
+      ],
+      "firstAired": "2026-07-05T14:00:00.000Z",
+      "runtime": null,
+      "certification": null,
+      "ids": {
+        "trakt": 184947,
+        "slug": "sparks-of-tomorrow",
+        "tmdb": 153217,
+        "imdb": "tt38939446"
+      },
+      "tmdbId": 153217,
+      "posterUrl": "https://image.tmdb.org/t/p/w500/yDTcX4l5D3OFeYGsQVI5Jqxx1D7.jpg",
+      "backdropUrl": "https://image.tmdb.org/t/p/w780/eImcA39cNfJzCqczMEQT5FjSlPy.jpg",
+      "networks": [
+        "Tokyo MX"
+      ],
+      "tmdbStatus": "In Production",
+      "firstAirDate": "2026-07-05",
+      "nextAirDate": "2026-07-05",
+      "lastAirDate": null,
+      "voteAverage": 0,
+      "tmdbGenres": [
+        "Animation",
+        "Drama",
+        "Sci-Fi & Fantasy"
+      ],
+      "homepage": "https://denkimokuroku.jp",
+      "anticipationScore": 4
     }
   ]
 }
