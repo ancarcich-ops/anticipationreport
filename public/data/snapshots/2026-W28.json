@@ -1,11 +1,11 @@
 {
   "week": "2026-W28",
-  "generatedAt": "2026-07-06T12:55:47.107Z",
+  "generatedAt": "2026-07-07T23:25:15.769Z",
   "source": "trakt+tmdb",
   "shows": [
     {
       "rank": 1,
-      "listCount": 23669,
+      "listCount": 25337,
       "title": "Harry Potter",
       "year": 2026,
       "overview": "There is nothing special about Harry Potter - at least that's what his Aunt Petunia always says. On his 11th birthday, a letter of admittance to Hogwarts School of Witchcraft and Wizardry opens up a hidden world for Harry: one of fun, friendship and magic. But with this new adventure comes great risk as Harry is forced to face a dangerous enemy from his past.",
@@ -39,7 +39,7 @@
       "nextAirDate": "2026-12-25",
       "lastAirDate": null,
       "voteAverage": 0,
-      "popularity": 6.8634,
+      "popularity": 6.2527,
       "tmdbGenres": [
         "Action & Adventure",
         "Family",
@@ -50,7 +50,7 @@
     },
     {
       "rank": 2,
-      "listCount": 16260,
+      "listCount": 17386,
       "title": "Lanterns",
       "year": 2026,
       "overview": "Two intergalactic cops, new recruit John Stewart and Lantern legend Hal Jordan, are drawn into a dark, earth-based mystery as they investigate a murder in the American heartland.",
@@ -81,7 +81,7 @@
       "nextAirDate": "2026-08-16",
       "lastAirDate": null,
       "voteAverage": 0,
-      "popularity": 5.4982,
+      "popularity": 4.9337,
       "tmdbGenres": [
         "Sci-Fi & Fantasy",
         "Mystery"
@@ -91,12 +91,12 @@
     },
     {
       "rank": 3,
-      "listCount": 11063,
+      "listCount": 11591,
       "title": "Lucky",
       "year": 2026,
       "overview": "When a multi-million-dollar heist goes sideways, con artist Lucky is forced to go on the run. Pursued by both the FBI and a ruthless crime boss, Lucky must fight for her life—and a way out.",
       "network": "Apple TV",
-      "status": "in production",
+      "status": "returning series",
       "genres": [
         "drama",
         "crime"
@@ -116,22 +116,22 @@
       "networks": [
         "Apple TV"
       ],
-      "tmdbStatus": "In Production",
+      "tmdbStatus": "Returning Series",
       "firstAirDate": "2026-07-14",
       "nextAirDate": "2026-07-14",
       "lastAirDate": null,
       "voteAverage": 0,
-      "popularity": 8.8901,
+      "popularity": 7.7727,
       "tmdbGenres": [
         "Drama",
         "Crime"
       ],
       "homepage": "https://tv.apple.com/show/umc.cmc.5qo7t3nngb2vj0m9dxkwebw1o",
-      "anticipationScore": 47
+      "anticipationScore": 46
     },
     {
       "rank": 4,
-      "listCount": 9960,
+      "listCount": 10779,
       "title": "VisionQuest",
       "year": 2026,
       "overview": "After the events of WandaVision, White Vision struggles to connect with the memories given to him as he lacks the emotions or feelings associated with them.",
@@ -161,16 +161,16 @@
       "nextAirDate": "2026-10-14",
       "lastAirDate": null,
       "voteAverage": 0,
-      "popularity": 8.4065,
+      "popularity": 7.0389,
       "tmdbGenres": [
         "Sci-Fi & Fantasy"
       ],
       "homepage": "https://www.marvel.com/tv-shows/visionquest/1",
-      "anticipationScore": 42
+      "anticipationScore": 43
     },
     {
       "rank": 5,
-      "listCount": 7013,
+      "listCount": 7417,
       "title": "Stuart Fails to Save the Universe",
       "year": 2026,
       "overview": "Comic book store owner Stuart Bloom is tasked with restoring reality after he breaks a device built by Sheldon and Leonard, accidentally bringing about a multiverse Armageddon. Stuart is aided in this quest by his girlfriend Denise, geologist friend Bert, and quantum physicist/all-around pain in the ass Barry Kripke.",
@@ -201,17 +201,17 @@
       "nextAirDate": "2026-07-23",
       "lastAirDate": null,
       "voteAverage": 0,
-      "popularity": 4.9381,
+      "popularity": 4.366,
       "tmdbGenres": [
         "Comedy",
         "Sci-Fi & Fantasy"
       ],
       "homepage": "https://www.hbomax.com/shows/1130c5ba-e71f-43e0-8de3-487dfdb49c11",
-      "anticipationScore": 30
+      "anticipationScore": 29
     },
     {
       "rank": 6,
-      "listCount": 4910,
+      "listCount": 5213,
       "title": "Crystal Lake",
       "year": 2026,
       "overview": "A prequel series set in the Friday the 13th universe centered on Pamela Voorhees.",
@@ -242,7 +242,7 @@
       "nextAirDate": "2026-10-15",
       "lastAirDate": null,
       "voteAverage": 0,
-      "popularity": 1.8211,
+      "popularity": 1.6735,
       "tmdbGenres": [
         "Mystery",
         "Drama"
@@ -252,7 +252,7 @@
     },
     {
       "rank": 7,
-      "listCount": 2947,
+      "listCount": 3084,
       "title": "The Westies",
       "year": 2026,
       "overview": "As the Javits Center construction project ignites a battle for profit in early 1980s Hell's Kitchen, a generational rift threatens the uneasy peace between violent Irish gang the Westies and the Mafia, and draws FBI heat.",
@@ -282,7 +282,7 @@
       "nextAirDate": "2026-07-12",
       "lastAirDate": null,
       "voteAverage": 0,
-      "popularity": 3.9537,
+      "popularity": 3.4959,
       "tmdbGenres": [
         "Drama",
         "Crime"
@@ -292,7 +292,7 @@
     },
     {
       "rank": 8,
-      "listCount": 2915,
+      "listCount": 3082,
       "title": "The Hawk",
       "year": 2026,
       "overview": "On the back nine of his career, golf legend Lonnie \"The Hawk\" Hawkins chases one final major — and drags everyone he loves into the chaos.",
@@ -321,7 +321,7 @@
       "nextAirDate": "2026-07-16",
       "lastAirDate": null,
       "voteAverage": 0,
-      "popularity": 8.2639,
+      "popularity": 6.8807,
       "tmdbGenres": [
         "Comedy"
       ],
@@ -330,10 +330,10 @@
     },
     {
       "rank": 9,
-      "listCount": 2752,
+      "listCount": 2989,
       "title": "THE GHOST IN THE SHELL",
       "year": 2026,
-      "overview": "In the year 2029, Niihama City has become a technologically advanced metropolis. Due to great improvements in cybernetics, its citizens are able to replace their limbs with robotic parts. The world is now more interconnected than ever before, and the city's Public Security Section 9 is responsible for combating corruption, terrorism, and other dangerous threats following this shift toward globalisation.",
+      "overview": "2029, a near-future Japan. The full cyborg Motoko Kusanagi envisions a task force that preemptively strikes emerging threats. She and her team are scouted by Daisuke Aramaki as Public Security Section 9, AKA the \"Shell Squad.\" An international conspiracy hints at a hacker known as The \"Puppet Master.\" What fate awaits Kusanagi? What is the hacker's endgame? A new era of cyberpunk action begins!",
       "network": "Kansai TV",
       "status": "returning series",
       "genres": [
@@ -344,7 +344,7 @@
         "adventure"
       ],
       "firstAired": "2026-07-07T14:00:00.000Z",
-      "runtime": null,
+      "runtime": 24,
       "certification": null,
       "ids": {
         "trakt": 241679,
@@ -363,8 +363,8 @@
       "firstAirDate": "2026-07-07",
       "nextAirDate": "2026-07-07",
       "lastAirDate": null,
-      "voteAverage": 0,
-      "popularity": 5.4207,
+      "voteAverage": 6.167,
+      "popularity": 5.506,
       "tmdbGenres": [
         "Animation",
         "Sci-Fi & Fantasy",
@@ -375,6 +375,85 @@
     },
     {
       "rank": 10,
+      "listCount": 2645,
+      "title": "Little House on the Prairie",
+      "year": 2026,
+      "overview": "The close-knit Ingalls family builds a new life on the Western frontier, where the joys of nature and the struggle for survival are deeply intertwined.",
+      "network": "Netflix",
+      "status": "returning series",
+      "genres": [
+        "drama",
+        "western"
+      ],
+      "firstAired": "2026-07-09T04:00:00.000Z",
+      "runtime": null,
+      "certification": "TV-PG",
+      "ids": {
+        "trakt": 275053,
+        "slug": "little-house-on-the-prairie-2026",
+        "tmdb": 283304,
+        "imdb": "tt13829154"
+      },
+      "tmdbId": 283304,
+      "posterUrl": "https://image.tmdb.org/t/p/w500/oWUGSadxC9vQPOCeHDDVfDezmQC.jpg",
+      "backdropUrl": "https://image.tmdb.org/t/p/w780/fBieUo3SdItUrXZE16YxbpjwXIe.jpg",
+      "networks": [
+        "Netflix"
+      ],
+      "tmdbStatus": "Returning Series",
+      "firstAirDate": "2026-07-09",
+      "nextAirDate": "2026-07-09",
+      "lastAirDate": null,
+      "voteAverage": 0,
+      "popularity": 7.5835,
+      "tmdbGenres": [
+        "Drama",
+        "Western"
+      ],
+      "homepage": "https://www.netflix.com/title/81748089",
+      "anticipationScore": 10
+    },
+    {
+      "rank": 11,
+      "listCount": 2585,
+      "title": "Ride or Die",
+      "year": 2026,
+      "overview": "Best friends, Judith and Debbie, know everything about each other … well, almost everything. Judith has been living a double life that Debbie knows nothing about: she is a highly trained assassin. When a hit goes horribly wrong, Judith and Debbie must go on the run together and work to repair their broken friendship—all while being targeted by a mysterious enemy who wants them dead. And only together, can they solve this layered mystery.",
+      "network": "Prime Video",
+      "status": "in production",
+      "genres": [
+        "action",
+        "adventure"
+      ],
+      "firstAired": "2026-07-15T07:00:00.000Z",
+      "runtime": null,
+      "certification": null,
+      "ids": {
+        "trakt": 217937,
+        "slug": "ride-or-die",
+        "tmdb": 241882,
+        "imdb": "tt30494226"
+      },
+      "tmdbId": 241882,
+      "posterUrl": "https://image.tmdb.org/t/p/w500/uWqEnvpwa2U28QheMdUdEcr4U0M.jpg",
+      "backdropUrl": "https://image.tmdb.org/t/p/w780/sHl0UR4smyYIv9cYyeNLQlkTUR6.jpg",
+      "networks": [
+        "Prime Video"
+      ],
+      "tmdbStatus": "In Production",
+      "firstAirDate": "2026-07-15",
+      "nextAirDate": "2026-07-15",
+      "lastAirDate": null,
+      "voteAverage": 0,
+      "popularity": 3.8837,
+      "tmdbGenres": [
+        "Action & Adventure"
+      ],
+      "homepage": "https://www.amazon.com/dp/B0H1MBNDTL",
+      "anticipationScore": 10
+    },
+    {
+      "rank": 12,
       "listCount": 2570,
       "title": "Power: Origins",
       "year": 2026,
@@ -405,96 +484,17 @@
       "nextAirDate": null,
       "lastAirDate": null,
       "voteAverage": 0,
-      "popularity": 2.3785,
+      "popularity": 2.3998,
       "tmdbGenres": [
         "Crime",
         "Drama"
       ],
       "homepage": null,
-      "anticipationScore": 11
-    },
-    {
-      "rank": 11,
-      "listCount": 2407,
-      "title": "Little House on the Prairie",
-      "year": 2026,
-      "overview": "The close-knit Ingalls family builds a new life on the Western frontier, where the joys of nature and the struggle for survival are deeply intertwined.",
-      "network": "Netflix",
-      "status": "returning series",
-      "genres": [
-        "drama",
-        "western"
-      ],
-      "firstAired": "2026-07-09T04:00:00.000Z",
-      "runtime": null,
-      "certification": "TV-PG",
-      "ids": {
-        "trakt": 275053,
-        "slug": "little-house-on-the-prairie-2026",
-        "tmdb": 283304,
-        "imdb": "tt13829154"
-      },
-      "tmdbId": 283304,
-      "posterUrl": "https://image.tmdb.org/t/p/w500/oWUGSadxC9vQPOCeHDDVfDezmQC.jpg",
-      "backdropUrl": "https://image.tmdb.org/t/p/w780/fBieUo3SdItUrXZE16YxbpjwXIe.jpg",
-      "networks": [
-        "Netflix"
-      ],
-      "tmdbStatus": "Returning Series",
-      "firstAirDate": "2026-07-09",
-      "nextAirDate": "2026-07-09",
-      "lastAirDate": null,
-      "voteAverage": 0,
-      "popularity": 6.8297,
-      "tmdbGenres": [
-        "Drama",
-        "Western"
-      ],
-      "homepage": "https://www.netflix.com/title/81748089",
-      "anticipationScore": 10
-    },
-    {
-      "rank": 12,
-      "listCount": 2324,
-      "title": "Ride or Die",
-      "year": 2026,
-      "overview": "Best friends, Judith and Debbie, know everything about each other … well, almost everything. Judith has been living a double life that Debbie knows nothing about: she is a highly trained assassin. When a hit goes horribly wrong, Judith and Debbie must go on the run together and work to repair their broken friendship—all while being targeted by a mysterious enemy who wants them dead. And only together, can they solve this layered mystery.",
-      "network": "Prime Video",
-      "status": "in production",
-      "genres": [
-        "action",
-        "adventure"
-      ],
-      "firstAired": "2026-07-15T07:00:00.000Z",
-      "runtime": null,
-      "certification": null,
-      "ids": {
-        "trakt": 217937,
-        "slug": "ride-or-die",
-        "tmdb": 241882,
-        "imdb": "tt30494226"
-      },
-      "tmdbId": 241882,
-      "posterUrl": "https://image.tmdb.org/t/p/w500/uWqEnvpwa2U28QheMdUdEcr4U0M.jpg",
-      "backdropUrl": "https://image.tmdb.org/t/p/w780/sHl0UR4smyYIv9cYyeNLQlkTUR6.jpg",
-      "networks": [
-        "Prime Video"
-      ],
-      "tmdbStatus": "In Production",
-      "firstAirDate": "2026-07-15",
-      "nextAirDate": "2026-07-15",
-      "lastAirDate": null,
-      "voteAverage": 0,
-      "popularity": 4.5922,
-      "tmdbGenres": [
-        "Action & Adventure"
-      ],
-      "homepage": "https://www.amazon.com/dp/B0H1MBNDTL",
       "anticipationScore": 10
     },
     {
       "rank": 13,
-      "listCount": 2077,
+      "listCount": 2383,
       "title": "Smoking Behind the Supermarket with You",
       "year": 2026,
       "overview": "Sasaki is an overworked salaryman drifting through the corporate grind, sustained by cigarettes and the cheerful service and smile of Yamada, the clerk at his favorite supermarket. But one night after a grueling shift, he arrives late to find Yamada nowhere to be seen. With nowhere left to smoke, his spirits sink—until a pierced young woman calls out to him: “You can smoke here.”",
@@ -552,8 +552,8 @@
       "firstAirDate": "2026-07-09",
       "nextAirDate": "2026-07-09",
       "lastAirDate": null,
-      "voteAverage": 9,
-      "popularity": 35.1666,
+      "voteAverage": 9.167,
+      "popularity": 33.9869,
       "tmdbGenres": [
         "Animation",
         "Drama",
@@ -564,7 +564,45 @@
     },
     {
       "rank": 14,
-      "listCount": 1860,
+      "listCount": 2038,
+      "title": "The Five Star Weekend",
+      "year": 2026,
+      "overview": "After her husband's unexpected death and a very public breakdown, famed cook Hollis hosts her best friends for an elaborate weekend on Nantucket.",
+      "network": "Peacock",
+      "status": "returning series",
+      "genres": [
+        "drama"
+      ],
+      "firstAired": "2026-07-09T04:00:00.000Z",
+      "runtime": null,
+      "certification": null,
+      "ids": {
+        "trakt": 274938,
+        "slug": "the-five-star-weekend",
+        "tmdb": 283151,
+        "imdb": "tt35587659"
+      },
+      "tmdbId": 283151,
+      "posterUrl": "https://image.tmdb.org/t/p/w500/A0Y6xf8IDDL2dBV3mvu8fWPFYLG.jpg",
+      "backdropUrl": "https://image.tmdb.org/t/p/w780/iXp8NomUApw6JVyXssPHLvqkHWC.jpg",
+      "networks": [
+        "Peacock"
+      ],
+      "tmdbStatus": "Returning Series",
+      "firstAirDate": "2026-07-09",
+      "nextAirDate": "2026-07-09",
+      "lastAirDate": null,
+      "voteAverage": 0,
+      "popularity": 4.0094,
+      "tmdbGenres": [
+        "Drama"
+      ],
+      "homepage": "https://www.peacocktv.com/stream-tv/the-five-star-weekend",
+      "anticipationScore": 8
+    },
+    {
+      "rank": 15,
+      "listCount": 2002,
       "title": "S.W.A.T. Exiles",
       "year": 2026,
       "overview": "After a high-profile mission goes sideways, Daniel 'Hondo' Harrelson is pulled out of forced retirement to lead a last-chance experimental SWAT unit made up of untested, unpredictable young recruits. Hondo must bridge a generational divide, navigate clashing personalities, and turn a squad of outsiders into a team capable of protecting the city and saving the program that made him who he is.",
@@ -594,7 +632,7 @@
       "nextAirDate": "2026-09-25",
       "lastAirDate": null,
       "voteAverage": 0,
-      "popularity": 5.4754,
+      "popularity": 4.9737,
       "tmdbGenres": [
         "Drama",
         "Crime"
@@ -603,46 +641,8 @@
       "anticipationScore": 8
     },
     {
-      "rank": 15,
-      "listCount": 1856,
-      "title": "The Five Star Weekend",
-      "year": 2026,
-      "overview": "After her husband's unexpected death and a very public breakdown, famed cook Hollis hosts her best friends for an elaborate weekend on Nantucket.",
-      "network": "Peacock",
-      "status": "in production",
-      "genres": [
-        "drama"
-      ],
-      "firstAired": "2026-07-16T04:00:00.000Z",
-      "runtime": null,
-      "certification": null,
-      "ids": {
-        "trakt": 274938,
-        "slug": "the-five-star-weekend",
-        "tmdb": 283151,
-        "imdb": "tt35587659"
-      },
-      "tmdbId": 283151,
-      "posterUrl": "https://image.tmdb.org/t/p/w500/A0Y6xf8IDDL2dBV3mvu8fWPFYLG.jpg",
-      "backdropUrl": "https://image.tmdb.org/t/p/w780/iXp8NomUApw6JVyXssPHLvqkHWC.jpg",
-      "networks": [
-        "Peacock"
-      ],
-      "tmdbStatus": "In Production",
-      "firstAirDate": "2026-07-09",
-      "nextAirDate": "2026-07-09",
-      "lastAirDate": null,
-      "voteAverage": 0,
-      "popularity": 4.4598,
-      "tmdbGenres": [
-        "Drama"
-      ],
-      "homepage": "https://www.peacocktv.com/stream-tv/the-five-star-weekend",
-      "anticipationScore": 8
-    },
-    {
       "rank": 16,
-      "listCount": 1636,
+      "listCount": 1975,
       "title": "Neagley",
       "year": 2026,
       "overview": "Frances Neagley is a private investigator in Chicago. When she learns that a beloved friend from her past has been killed in a suspicious accident, she becomes hell bent on justice. Using everything she's learned from Jack Reacher and her time as a member of the 110 Special Investigators, Neagley puts herself on a dangerous path to uncover a menacing evil.",
@@ -673,18 +673,18 @@
       "nextAirDate": "2026-09-16",
       "lastAirDate": null,
       "voteAverage": 0,
-      "popularity": 2.7591,
+      "popularity": 2.2449,
       "tmdbGenres": [
         "Drama",
         "Mystery",
         "Crime"
       ],
       "homepage": null,
-      "anticipationScore": 7
+      "anticipationScore": 8
     },
     {
       "rank": 17,
-      "listCount": 1504,
+      "listCount": 1648,
       "title": "Furious",
       "year": 2026,
       "overview": "FBI agent Alice Black is on the hunt for a mysterious and calculating female serial killer. Both walk their own paths toward justice, and as their lives start to intertwine, the line between right and wrong begins to blur.",
@@ -715,140 +715,17 @@
       "nextAirDate": "2026-07-27",
       "lastAirDate": null,
       "voteAverage": 0,
-      "popularity": 7.4835,
+      "popularity": 6.4603,
       "tmdbGenres": [
         "Drama",
         "Crime"
       ],
       "homepage": "https://www.hulu.com/series/furious-5d4924b7-1cde-47c3-8852-f30bdd7fe979",
-      "anticipationScore": 6
+      "anticipationScore": 7
     },
     {
       "rank": 18,
-      "listCount": 1430,
-      "title": "Scooby-Doo: Origins",
-      "year": 2027,
-      "overview": "During their final summer at camp, old friends Shaggy and Daphne get embroiled in a haunting mystery surrounding a lonely, lost Great Dane puppy who may have been a witness to a supernatural murder. Alongside the pragmatic and scientific townie Velma and the strange but ever-so-handsome new kid Freddy, they set out to solve the case that's pulling each of them into a creepy nightmare that threatens to expose all of their secrets.",
-      "network": "Netflix",
-      "status": "in production",
-      "genres": [
-        "mystery",
-        "comedy",
-        "fantasy",
-        "science-fiction"
-      ],
-      "firstAired": "2027-04-08T04:00:00.000Z",
-      "runtime": null,
-      "certification": null,
-      "ids": {
-        "trakt": 237580,
-        "slug": "scooby-doo-origins",
-        "tmdb": 253124,
-        "imdb": "tt32244582"
-      },
-      "tmdbId": 253124,
-      "posterUrl": "https://image.tmdb.org/t/p/w500/pm2dMqADFQBQnjFBZS7ez6Tw3IP.jpg",
-      "backdropUrl": "https://image.tmdb.org/t/p/w780/8WWcvMVO4mwCyxkmeVQFh926vIn.jpg",
-      "networks": [
-        "Netflix"
-      ],
-      "tmdbStatus": "In Production",
-      "firstAirDate": null,
-      "nextAirDate": null,
-      "lastAirDate": null,
-      "voteAverage": 0,
-      "popularity": 5.1537,
-      "tmdbGenres": [
-        "Comedy",
-        "Mystery",
-        "Sci-Fi & Fantasy"
-      ],
-      "homepage": "https://www.netflix.com/ua/title/81777028?l=uk",
-      "anticipationScore": 6
-    },
-    {
-      "rank": 19,
-      "listCount": 1373,
-      "title": "TRINITY",
-      "year": 2026,
-      "overview": "A heroic female naval officer becomes involved with the outwardly charismatic Secretary of Defense, only to discover that he may be at the heart of a dangerous conspiracy.",
-      "network": "Netflix",
-      "status": "in production",
-      "genres": [
-        "drama"
-      ],
-      "firstAired": "2026-07-15T23:00:00.000Z",
-      "runtime": null,
-      "certification": null,
-      "ids": {
-        "trakt": 289469,
-        "slug": "trinity-2026",
-        "tmdb": 294607,
-        "imdb": "tt37433759"
-      },
-      "tmdbId": 294607,
-      "posterUrl": "https://image.tmdb.org/t/p/w500/gLZRXcPD0TZuI5J1FXtMAsTN3fc.jpg",
-      "backdropUrl": null,
-      "networks": [
-        "Netflix"
-      ],
-      "tmdbStatus": "In Production",
-      "firstAirDate": "2026-07-16",
-      "nextAirDate": "2026-07-16",
-      "lastAirDate": null,
-      "voteAverage": 0,
-      "popularity": 3.3387,
-      "tmdbGenres": [
-        "Drama"
-      ],
-      "homepage": "https://www.netflix.com/title/81696435",
-      "anticipationScore": 6
-    },
-    {
-      "rank": 20,
-      "listCount": 1364,
-      "title": "Anna Pigeon",
-      "year": 2026,
-      "overview": "Anna Pigeon is a former city slicker who became a park ranger after a devastating loss changed the trajectory of her life forever. While Anna tries to outrun her demons, her focus turns to solving crimes that have taken place within national park grounds, no matter who or what gets in her way.",
-      "network": "USA Network",
-      "status": "in production",
-      "genres": [
-        "drama",
-        "mystery",
-        "crime"
-      ],
-      "firstAired": "2026-08-08T02:00:00.000Z",
-      "runtime": null,
-      "certification": null,
-      "ids": {
-        "trakt": 285533,
-        "slug": "anna-pigeon",
-        "tmdb": 291350,
-        "imdb": "tt36937503"
-      },
-      "tmdbId": 291350,
-      "posterUrl": "https://image.tmdb.org/t/p/w500/qQ7nkSvxqFyILu0h2q0hNI6bZTi.jpg",
-      "backdropUrl": "https://image.tmdb.org/t/p/w780/wPXTBdO4gvczVmYxjRi7pFqotgw.jpg",
-      "networks": [
-        "USA Network"
-      ],
-      "tmdbStatus": "In Production",
-      "firstAirDate": "2026-08-07",
-      "nextAirDate": "2026-08-07",
-      "lastAirDate": null,
-      "voteAverage": 0,
-      "popularity": 34.4364,
-      "tmdbGenres": [
-        "Drama",
-        "Mystery",
-        "Crime"
-      ],
-      "homepage": null,
-      "anticipationScore": 6
-    },
-    {
-      "rank": 21,
-      "listCount": 1339,
+      "listCount": 1589,
       "title": "Tomb Raider King",
       "year": 2026,
       "overview": "Mysterious tombs appeared all over the world one day, each containing a relic which grants its owner supernatural abilities. Jooheon Suh is a tomb explorer, excavator, and raider. Betrayed by his employer, he's about to die at the hands of a powerful new relic when he suddenly finds himself 15 years in the past, before any relics or tombs made their debut. Driven by feelings of revenge, how will Jooheon use his knowledge of the future to become the Tomb Raider King?",
@@ -882,7 +759,7 @@
       "nextAirDate": "2026-07-09",
       "lastAirDate": null,
       "voteAverage": 0,
-      "popularity": 6.4072,
+      "popularity": 6.3484,
       "tmdbGenres": [
         "Animation",
         "Action & Adventure",
@@ -892,8 +769,131 @@
       "anticipationScore": 6
     },
     {
+      "rank": 19,
+      "listCount": 1430,
+      "title": "Anna Pigeon",
+      "year": 2026,
+      "overview": "Anna Pigeon is a former city slicker who became a park ranger after a devastating loss changed the trajectory of her life forever. While Anna tries to outrun her demons, her focus turns to solving crimes that have taken place within national park grounds, no matter who or what gets in her way.",
+      "network": "USA Network",
+      "status": "in production",
+      "genres": [
+        "drama",
+        "mystery",
+        "crime"
+      ],
+      "firstAired": "2026-08-08T02:00:00.000Z",
+      "runtime": null,
+      "certification": null,
+      "ids": {
+        "trakt": 285533,
+        "slug": "anna-pigeon",
+        "tmdb": 291350,
+        "imdb": "tt36937503"
+      },
+      "tmdbId": 291350,
+      "posterUrl": "https://image.tmdb.org/t/p/w500/qQ7nkSvxqFyILu0h2q0hNI6bZTi.jpg",
+      "backdropUrl": "https://image.tmdb.org/t/p/w780/wPXTBdO4gvczVmYxjRi7pFqotgw.jpg",
+      "networks": [
+        "USA Network"
+      ],
+      "tmdbStatus": "In Production",
+      "firstAirDate": "2026-08-07",
+      "nextAirDate": "2026-08-07",
+      "lastAirDate": null,
+      "voteAverage": 0,
+      "popularity": 29.1431,
+      "tmdbGenres": [
+        "Drama",
+        "Mystery",
+        "Crime"
+      ],
+      "homepage": null,
+      "anticipationScore": 6
+    },
+    {
+      "rank": 20,
+      "listCount": 1430,
+      "title": "Scooby-Doo: Origins",
+      "year": 2027,
+      "overview": "During their final summer at camp, old friends Shaggy and Daphne get embroiled in a haunting mystery surrounding a lonely, lost Great Dane puppy who may have been a witness to a supernatural murder. Alongside the pragmatic and scientific townie Velma and the strange but ever-so-handsome new kid Freddy, they set out to solve the case that's pulling each of them into a creepy nightmare that threatens to expose all of their secrets.",
+      "network": "Netflix",
+      "status": "in production",
+      "genres": [
+        "mystery",
+        "comedy",
+        "fantasy",
+        "science-fiction"
+      ],
+      "firstAired": "2027-04-08T04:00:00.000Z",
+      "runtime": null,
+      "certification": null,
+      "ids": {
+        "trakt": 237580,
+        "slug": "scooby-doo-origins",
+        "tmdb": 253124,
+        "imdb": "tt32244582"
+      },
+      "tmdbId": 253124,
+      "posterUrl": "https://image.tmdb.org/t/p/w500/pm2dMqADFQBQnjFBZS7ez6Tw3IP.jpg",
+      "backdropUrl": "https://image.tmdb.org/t/p/w780/8WWcvMVO4mwCyxkmeVQFh926vIn.jpg",
+      "networks": [
+        "Netflix"
+      ],
+      "tmdbStatus": "In Production",
+      "firstAirDate": null,
+      "nextAirDate": null,
+      "lastAirDate": null,
+      "voteAverage": 0,
+      "popularity": 5.1839,
+      "tmdbGenres": [
+        "Comedy",
+        "Mystery",
+        "Sci-Fi & Fantasy"
+      ],
+      "homepage": "https://www.netflix.com/ua/title/81777028?l=uk",
+      "anticipationScore": 6
+    },
+    {
+      "rank": 21,
+      "listCount": 1373,
+      "title": "TRINITY",
+      "year": 2026,
+      "overview": "A heroic female naval officer becomes involved with the outwardly charismatic Secretary of Defense, only to discover that he may be at the heart of a dangerous conspiracy.",
+      "network": "Netflix",
+      "status": "in production",
+      "genres": [
+        "drama"
+      ],
+      "firstAired": "2026-07-15T23:00:00.000Z",
+      "runtime": null,
+      "certification": null,
+      "ids": {
+        "trakt": 289469,
+        "slug": "trinity-2026",
+        "tmdb": 294607,
+        "imdb": "tt37433759"
+      },
+      "tmdbId": 294607,
+      "posterUrl": "https://image.tmdb.org/t/p/w500/gLZRXcPD0TZuI5J1FXtMAsTN3fc.jpg",
+      "backdropUrl": null,
+      "networks": [
+        "Netflix"
+      ],
+      "tmdbStatus": "In Production",
+      "firstAirDate": "2026-07-16",
+      "nextAirDate": "2026-07-16",
+      "lastAirDate": null,
+      "voteAverage": 0,
+      "popularity": 3.0232,
+      "tmdbGenres": [
+        "Drama"
+      ],
+      "homepage": "https://www.netflix.com/title/81696435",
+      "anticipationScore": 5
+    },
+    {
       "rank": 22,
-      "listCount": 1025,
+      "listCount": 1192,
       "title": "President Curtis",
       "year": 2026,
       "overview": "Follow the Commander-in-Chief and his eccentric staff as they tackle the kind of crises that Rick Sanchez could never be bothered with - from interdimensional diplomacy to paranormal investigations and unexplained phenomena.",
@@ -923,17 +923,17 @@
       "nextAirDate": "2026-07-26",
       "lastAirDate": null,
       "voteAverage": 0,
-      "popularity": 8.9008,
+      "popularity": 7.5213,
       "tmdbGenres": [
         "Animation",
         "Comedy"
       ],
       "homepage": null,
-      "anticipationScore": 4
+      "anticipationScore": 5
     },
     {
       "rank": 23,
-      "listCount": 986,
+      "listCount": 1161,
       "title": "BeLIEf",
       "year": 2026,
       "overview": "When a revengeful heretic threatens to use a telekinetic teenager to destroy all religion, a disillusioned renegade realises he must stop them enacting an apocalyptic unholy war.",
@@ -960,62 +960,67 @@
       "backdropUrl": "https://image.tmdb.org/t/p/w780/llDkIKyU2DD2dXzGEfAaNeyUGH2.jpg",
       "networks": [],
       "tmdbStatus": "Returning Series",
-      "firstAirDate": "2026-10-01",
-      "nextAirDate": "2026-10-01",
+      "firstAirDate": "2027-02-19",
+      "nextAirDate": "2027-02-19",
       "lastAirDate": null,
       "voteAverage": 0,
-      "popularity": 13.8492,
+      "popularity": 11.4762,
       "tmdbGenres": [
         "Sci-Fi & Fantasy",
         "Crime",
         "Action & Adventure"
       ],
       "homepage": "https://rashproductions.co.uk/belief",
-      "anticipationScore": 4
+      "anticipationScore": 5
     },
     {
       "rank": 24,
-      "listCount": 915,
-      "title": "Ricky Gervais Alley Cats",
+      "listCount": 1053,
+      "title": "Star Wars: Visions Presents - The Ninth Jedi",
       "year": 2026,
-      "overview": "Outrageous misadventures run wild as feral cats cause chaos on the streets in this no-holds-barred animated comedy from Ricky Gervais.",
-      "network": "Netflix",
+      "overview": "Kara and her ragtag Jedi crew seek out to find worthy Jedi to fight against an increasingly powerful warlord.",
+      "network": "Disney+",
       "status": "in production",
       "genres": [
-        "animation",
-        "comedy"
+        "fantasy",
+        "science-fiction",
+        "action",
+        "adventure",
+        "anime"
       ],
-      "firstAired": "2026-08-06T23:00:00.000Z",
+      "firstAired": "2026-08-04T18:00:00.000Z",
       "runtime": null,
-      "certification": "TV-MA",
+      "certification": "TV-PG",
       "ids": {
-        "trakt": 298535,
-        "slug": "ricky-gervais-alley-cats",
-        "tmdb": 300480,
-        "imdb": "tt38264832"
+        "trakt": 282931,
+        "slug": "star-wars-visions-presents-the-ninth-jedi",
+        "tmdb": 289324,
+        "imdb": "tt43337681"
       },
-      "tmdbId": 300480,
-      "posterUrl": "https://image.tmdb.org/t/p/w500/mWC77mH2Nv7KMP8vGzwwCVkhsWu.jpg",
-      "backdropUrl": "https://image.tmdb.org/t/p/w780/w7yWr1UM413lOAPt2XS7TVALWrg.jpg",
+      "tmdbId": 289324,
+      "posterUrl": "https://image.tmdb.org/t/p/w500/r1AnM76TBeTNB5zRcIk2kRUXTDF.jpg",
+      "backdropUrl": "https://image.tmdb.org/t/p/w780/tyv8Gnv2ncXOEjLp6HbeLTtXwjl.jpg",
       "networks": [
-        "Netflix"
+        "Hulu",
+        "Disney+"
       ],
       "tmdbStatus": "In Production",
-      "firstAirDate": "2026-08-07",
-      "nextAirDate": "2026-08-07",
+      "firstAirDate": "2026-08-05",
+      "nextAirDate": "2026-08-05",
       "lastAirDate": null,
       "voteAverage": 0,
-      "popularity": 6.0153,
+      "popularity": 7.6071,
       "tmdbGenres": [
         "Animation",
-        "Comedy"
+        "Sci-Fi & Fantasy",
+        "Action & Adventure"
       ],
-      "homepage": "https://www.netflix.com/title/81658840",
+      "homepage": "https://www.disneyplus.com/browse/entity-921588f0-9a3b-4cd6-80d6-0a7cc9ed388a",
       "anticipationScore": 4
     },
     {
       "rank": 25,
-      "listCount": 885,
+      "listCount": 1039,
       "title": "The East Palace",
       "year": 2026,
       "overview": "A man who walks the spirit world and a court lady who hears the dead enter the East Palace by the king's orders — can they unravel its dark secrets?",
@@ -1049,7 +1054,7 @@
       "nextAirDate": "2026-07-17",
       "lastAirDate": null,
       "voteAverage": 0,
-      "popularity": 8.2388,
+      "popularity": 7.257,
       "tmdbGenres": [
         "Mystery",
         "Action & Adventure",
@@ -1072,8 +1077,8 @@
       ],
       "seasonNumber": 4,
       "premiereDate": "2026-08-04T06:00:00.000Z",
-      "votes": 16695,
-      "rating": 8.631505966186523,
+      "votes": 16894,
+      "rating": 8.6371488571167,
       "ids": {
         "trakt": 162639,
         "slug": "ted-lasso",
@@ -1091,8 +1096,8 @@
       "firstAirDate": "2020-08-14",
       "nextAirDate": "2026-08-04",
       "lastAirDate": "2023-05-30",
-      "voteAverage": 8.345,
-      "popularity": 50.7096,
+      "voteAverage": 8.3,
+      "popularity": 48.5907,
       "tmdbGenres": [
         "Drama",
         "Comedy"
@@ -1112,8 +1117,8 @@
       ],
       "seasonNumber": 29,
       "premiereDate": "2026-09-17T02:00:00.000Z",
-      "votes": 14214,
-      "rating": 8.39306354522705,
+      "votes": 14258,
+      "rating": 8.392200469970703,
       "ids": {
         "trakt": 2177,
         "slug": "south-park",
@@ -1132,13 +1137,13 @@
       "nextAirDate": "2026-09-16",
       "lastAirDate": "2025-12-10",
       "voteAverage": 8.34,
-      "popularity": 71.7522,
+      "popularity": 69.5901,
       "tmdbGenres": [
         "Animation",
         "Comedy"
       ],
       "homepage": "http://southpark.cc.com/",
-      "anticipationScore": 85
+      "anticipationScore": 84
     },
     {
       "title": "Futurama",
@@ -1154,8 +1159,8 @@
       ],
       "seasonNumber": 11,
       "premiereDate": "2026-08-04T00:00:00.000Z",
-      "votes": 13648,
-      "rating": 8.487690925598145,
+      "votes": 13705,
+      "rating": 8.48653793334961,
       "ids": {
         "trakt": 614,
         "slug": "futurama",
@@ -1175,15 +1180,15 @@
       "firstAirDate": "1999-03-28",
       "nextAirDate": "2026-08-03",
       "lastAirDate": "2025-09-15",
-      "voteAverage": 8.368,
-      "popularity": 57.5383,
+      "voteAverage": 8.4,
+      "popularity": 53.7498,
       "tmdbGenres": [
         "Animation",
         "Comedy",
         "Sci-Fi & Fantasy"
       ],
       "homepage": "https://www.hulu.com/series/85bf4cc1-cd8b-4469-ad87-7289217a0b74",
-      "anticipationScore": 82
+      "anticipationScore": 81
     },
     {
       "title": "Reacher",
@@ -1199,8 +1204,8 @@
       ],
       "seasonNumber": 4,
       "premiereDate": "2026-08-12T04:00:00.000Z",
-      "votes": 13098,
-      "rating": 7.794854164123535,
+      "votes": 13213,
+      "rating": 7.80110502243042,
       "ids": {
         "trakt": 155536,
         "slug": "reacher",
@@ -1218,8 +1223,8 @@
       "firstAirDate": "2022-02-03",
       "nextAirDate": "2026-08-12",
       "lastAirDate": "2025-03-27",
-      "voteAverage": 8.078,
-      "popularity": 106.0908,
+      "voteAverage": 8.079,
+      "popularity": 95.6835,
       "tmdbGenres": [
         "Action & Adventure",
         "Drama",
@@ -1241,8 +1246,8 @@
       ],
       "seasonNumber": 6,
       "premiereDate": "2026-09-16T04:00:00.000Z",
-      "votes": 7994,
-      "rating": 8.393795013427734,
+      "votes": 8061,
+      "rating": 8.395980834960938,
       "ids": {
         "trakt": 155534,
         "slug": "slow-horses",
@@ -1261,7 +1266,7 @@
       "nextAirDate": "2026-09-16",
       "lastAirDate": "2025-10-29",
       "voteAverage": 8.007,
-      "popularity": 61.4228,
+      "popularity": 52.2103,
       "tmdbGenres": [
         "Crime",
         "Drama",
@@ -1284,8 +1289,8 @@
       ],
       "seasonNumber": 3,
       "premiereDate": "2026-10-23T07:00:00.000Z",
-      "votes": 7725,
-      "rating": 7.616828441619873,
+      "votes": 7824,
+      "rating": 7.622827053070068,
       "ids": {
         "trakt": 164129,
         "slug": "lupin",
@@ -1304,7 +1309,7 @@
       "nextAirDate": "2026-10-23",
       "lastAirDate": "2023-10-05",
       "voteAverage": 7.7,
-      "popularity": 25.7993,
+      "popularity": 23.4126,
       "tmdbGenres": [
         "Crime",
         "Drama",
@@ -1325,8 +1330,8 @@
       ],
       "seasonNumber": 3,
       "premiereDate": "2026-08-02T07:00:00.000Z",
-      "votes": 4621,
-      "rating": 7.855659008026123,
+      "votes": 4667,
+      "rating": 7.860081195831299,
       "ids": {
         "trakt": 167187,
         "slug": "lioness",
@@ -1345,7 +1350,7 @@
       "nextAirDate": "2026-08-02",
       "lastAirDate": "2024-12-08",
       "voteAverage": 7.994,
-      "popularity": 62.4554,
+      "popularity": 58.9272,
       "tmdbGenres": [
         "Drama",
         "War & Politics"
@@ -1366,8 +1371,8 @@
       ],
       "seasonNumber": 2,
       "premiereDate": "2026-08-28T02:00:00.000Z",
-      "votes": 4563,
-      "rating": 7.686390399932861,
+      "votes": 4603,
+      "rating": 7.69063663482666,
       "ids": {
         "trakt": 170597,
         "slug": "dark-matter-2024",
@@ -1385,8 +1390,8 @@
       "firstAirDate": "2024-05-07",
       "nextAirDate": "2026-08-27",
       "lastAirDate": "2024-06-25",
-      "voteAverage": 7.8,
-      "popularity": 16.5918,
+      "voteAverage": 7.764,
+      "popularity": 15.0578,
       "tmdbGenres": [
         "Sci-Fi & Fantasy",
         "Drama"
@@ -1407,8 +1412,8 @@
       ],
       "seasonNumber": 4,
       "premiereDate": "2026-07-23T07:00:00.000Z",
-      "votes": 4464,
-      "rating": 8.107526779174805,
+      "votes": 4486,
+      "rating": 8.111234664916992,
       "ids": {
         "trakt": 162206,
         "slug": "star-trek-strange-new-worlds",
@@ -1426,8 +1431,8 @@
       "firstAirDate": "2022-05-05",
       "nextAirDate": "2026-07-23",
       "lastAirDate": "2025-09-11",
-      "voteAverage": 7.956,
-      "popularity": 28.1599,
+      "voteAverage": 8,
+      "popularity": 27.4939,
       "tmdbGenres": [
         "Sci-Fi & Fantasy",
         "Drama"
@@ -1448,8 +1453,8 @@
       ],
       "seasonNumber": 2,
       "premiereDate": "2026-10-22T00:00:00.000Z",
-      "votes": 4304,
-      "rating": 7.617332935333252,
+      "votes": 4333,
+      "rating": 7.621278762817383,
       "ids": {
         "trakt": 170081,
         "slug": "the-terminal-list",
@@ -1467,8 +1472,8 @@
       "firstAirDate": "2022-06-30",
       "nextAirDate": "2026-10-21",
       "lastAirDate": "2022-06-30",
-      "voteAverage": 7.957,
-      "popularity": 21.6252,
+      "voteAverage": 7.959,
+      "popularity": 18.7186,
       "tmdbGenres": [
         "Action & Adventure",
         "Drama"
@@ -1490,8 +1495,8 @@
       ],
       "seasonNumber": 5,
       "premiereDate": "2026-08-20T07:00:00.000Z",
-      "votes": 3965,
-      "rating": 7.689785480499268,
+      "votes": 4054,
+      "rating": 7.700542449951172,
       "ids": {
         "trakt": 159815,
         "slug": "outer-banks",
@@ -1509,8 +1514,8 @@
       "firstAirDate": "2020-04-15",
       "nextAirDate": "2026-08-20",
       "lastAirDate": "2024-11-07",
-      "voteAverage": 8.272,
-      "popularity": 27.0342,
+      "voteAverage": 8.274,
+      "popularity": 25.3275,
       "tmdbGenres": [
         "Action & Adventure",
         "Drama",
@@ -1533,8 +1538,8 @@
       ],
       "seasonNumber": 2,
       "premiereDate": "2026-07-25T14:00:00.000Z",
-      "votes": 3794,
-      "rating": 8.251449584960938,
+      "votes": 3856,
+      "rating": 8.264522552490234,
       "ids": {
         "trakt": 30850,
         "slug": "bleach",
@@ -1558,8 +1563,8 @@
       "firstAirDate": "2004-10-05",
       "nextAirDate": "2026-07-25",
       "lastAirDate": "2024-12-29",
-      "voteAverage": 8.4,
-      "popularity": 96.1975,
+      "voteAverage": 8.36,
+      "popularity": 86.8798,
       "tmdbGenres": [
         "Action & Adventure",
         "Animation",
@@ -1581,8 +1586,8 @@
       ],
       "seasonNumber": 28,
       "premiereDate": "2026-10-09T01:00:00.000Z",
-      "votes": 3431,
-      "rating": 7.705625057220459,
+      "votes": 3458,
+      "rating": 7.704164028167725,
       "ids": {
         "trakt": 2716,
         "slug": "law-order-special-victims-unit",
@@ -1600,15 +1605,15 @@
       "firstAirDate": "1999-09-20",
       "nextAirDate": "2026-10-08",
       "lastAirDate": "2026-05-14",
-      "voteAverage": 7.951,
-      "popularity": 270.4985,
+      "voteAverage": 7.952,
+      "popularity": 268.0654,
       "tmdbGenres": [
         "Crime",
         "Drama",
         "Mystery"
       ],
       "homepage": "http://www.nbc.com/law-and-order-special-victims-unit",
-      "anticipationScore": 21
+      "anticipationScore": 20
     },
     {
       "title": "Chicago Fire",
@@ -1621,8 +1626,8 @@
       ],
       "seasonNumber": 15,
       "premiereDate": "2026-10-08T01:00:00.000Z",
-      "votes": 2860,
-      "rating": 8.044055938720703,
+      "votes": 2895,
+      "rating": 8.0497407913208,
       "ids": {
         "trakt": 43764,
         "slug": "chicago-fire",
@@ -1640,8 +1645,8 @@
       "firstAirDate": "2012-10-10",
       "nextAirDate": "2026-10-07",
       "lastAirDate": "2026-05-13",
-      "voteAverage": 8.406,
-      "popularity": 94.9717,
+      "voteAverage": 8.407,
+      "popularity": 93.3406,
       "tmdbGenres": [
         "Drama"
       ],
@@ -1663,8 +1668,8 @@
       ],
       "seasonNumber": 3,
       "premiereDate": "2026-07-27T01:00:00.000Z",
-      "votes": 2726,
-      "rating": 7.084739685058594,
+      "votes": 2761,
+      "rating": 7.094892978668213,
       "ids": {
         "trakt": 193872,
         "slug": "the-walking-dead-dead-city",
@@ -1683,7 +1688,7 @@
       "nextAirDate": "2026-07-26",
       "lastAirDate": "2025-06-22",
       "voteAverage": 7.916,
-      "popularity": 20.0211,
+      "popularity": 18.7829,
       "tmdbGenres": [
         "Action & Adventure",
         "Drama",
@@ -1704,8 +1709,8 @@
       ],
       "seasonNumber": 14,
       "premiereDate": "2026-10-08T02:00:00.000Z",
-      "votes": 2679,
-      "rating": 8.047406196594238,
+      "votes": 2720,
+      "rating": 8.051470756530762,
       "ids": {
         "trakt": 58454,
         "slug": "chicago-p-d",
@@ -1724,7 +1729,7 @@
       "nextAirDate": "2026-10-07",
       "lastAirDate": "2026-05-13",
       "voteAverage": 8.426,
-      "popularity": 85.3493,
+      "popularity": 82.0438,
       "tmdbGenres": [
         "Crime",
         "Drama"
@@ -1745,8 +1750,8 @@
       ],
       "seasonNumber": 15,
       "premiereDate": "2026-07-20T04:00:00.000Z",
-      "votes": 2611,
-      "rating": 7.6124091148376465,
+      "votes": 2614,
+      "rating": 7.610940933227539,
       "ids": {
         "trakt": 2109,
         "slug": "king-of-the-hill",
@@ -1766,14 +1771,14 @@
       "nextAirDate": "2026-07-20",
       "lastAirDate": "2025-08-04",
       "voteAverage": 7.4,
-      "popularity": 62.3827,
+      "popularity": 66.1295,
       "tmdbGenres": [
         "Animation",
         "Comedy",
         "Family"
       ],
       "homepage": "https://www.hulu.com/series/52b8dd8a-eff2-4ed2-9b8d-7c0039df1c53",
-      "anticipationScore": 16
+      "anticipationScore": 15
     },
     {
       "title": "The Daily Show",
@@ -1787,8 +1792,8 @@
       ],
       "seasonNumber": 32,
       "premiereDate": "2026-09-08T03:00:00.000Z",
-      "votes": 1815,
-      "rating": 7.856749534606934,
+      "votes": 1818,
+      "rating": 7.858635902404785,
       "ids": {
         "trakt": 2211,
         "slug": "the-daily-show",
@@ -1807,51 +1812,13 @@
       "nextAirDate": "2026-07-07",
       "lastAirDate": "2026-06-24",
       "voteAverage": 6.4,
-      "popularity": 99.1848,
+      "popularity": 101.9447,
       "tmdbGenres": [
         "News",
         "Comedy"
       ],
       "homepage": "https://www.cc.com/shows/the-daily-show",
       "anticipationScore": 11
-    },
-    {
-      "title": "Chicago Med",
-      "year": 2015,
-      "overview": "An emotional thrill ride through the day-to-day chaos of the city's most explosive hospital and the courageous team of doctors who hold it together. They will tackle unique new cases inspired by topical events, forging fiery relationships in the pulse-pounding pandemonium of the emergency room.",
-      "network": "NBC",
-      "status": "returning series",
-      "genres": [
-        "drama"
-      ],
-      "seasonNumber": 12,
-      "premiereDate": "2026-10-08T00:00:00.000Z",
-      "votes": 1735,
-      "rating": 7.613256454467773,
-      "ids": {
-        "trakt": 98934,
-        "slug": "chicago-med",
-        "tmdb": 62650,
-        "imdb": "tt4655480"
-      },
-      "rank": 19,
-      "tmdbId": 62650,
-      "posterUrl": "https://image.tmdb.org/t/p/w500/9eym662FRJJb9wdgCiDKPDciZzf.jpg",
-      "backdropUrl": "https://image.tmdb.org/t/p/w780/x2jNLrYw1s9i6kihEJqsBQgs9nR.jpg",
-      "networks": [
-        "NBC"
-      ],
-      "tmdbStatus": "Returning Series",
-      "firstAirDate": "2015-11-17",
-      "nextAirDate": "2026-10-07",
-      "lastAirDate": "2026-05-13",
-      "voteAverage": 8.267,
-      "popularity": 59.7766,
-      "tmdbGenres": [
-        "Drama"
-      ],
-      "homepage": "http://www.nbc.com/chicago-med",
-      "anticipationScore": 10
     },
     {
       "title": "My Life with the Walter Boys",
@@ -1865,15 +1832,15 @@
       ],
       "seasonNumber": 3,
       "premiereDate": "2026-08-06T07:00:00.000Z",
-      "votes": 1692,
-      "rating": 7.426123142242432,
+      "votes": 1758,
+      "rating": 7.44197940826416,
       "ids": {
         "trakt": 183619,
         "slug": "my-life-with-the-walter-boys",
         "tmdb": 199001,
         "imdb": "tt8323628"
       },
-      "rank": 20,
+      "rank": 19,
       "tmdbId": 199001,
       "posterUrl": "https://image.tmdb.org/t/p/w500/jg3YdxDNlxay0NWTxgAPif647Hj.jpg",
       "backdropUrl": "https://image.tmdb.org/t/p/w780/5WUsnqUm7xbY3oSwumSLfjyyax.jpg",
@@ -1885,11 +1852,49 @@
       "nextAirDate": "2026-08-06",
       "lastAirDate": "2025-08-28",
       "voteAverage": 7.8,
-      "popularity": 21.0935,
+      "popularity": 18.1197,
       "tmdbGenres": [
         "Drama"
       ],
       "homepage": "https://www.netflix.com/title/81426967",
+      "anticipationScore": 10
+    },
+    {
+      "title": "Chicago Med",
+      "year": 2015,
+      "overview": "An emotional thrill ride through the day-to-day chaos of the city's most explosive hospital and the courageous team of doctors who hold it together. They will tackle unique new cases inspired by topical events, forging fiery relationships in the pulse-pounding pandemonium of the emergency room.",
+      "network": "NBC",
+      "status": "returning series",
+      "genres": [
+        "drama"
+      ],
+      "seasonNumber": 12,
+      "premiereDate": "2026-10-08T00:00:00.000Z",
+      "votes": 1755,
+      "rating": 7.619943141937256,
+      "ids": {
+        "trakt": 98934,
+        "slug": "chicago-med",
+        "tmdb": 62650,
+        "imdb": "tt4655480"
+      },
+      "rank": 20,
+      "tmdbId": 62650,
+      "posterUrl": "https://image.tmdb.org/t/p/w500/9eym662FRJJb9wdgCiDKPDciZzf.jpg",
+      "backdropUrl": "https://image.tmdb.org/t/p/w780/x2jNLrYw1s9i6kihEJqsBQgs9nR.jpg",
+      "networks": [
+        "NBC"
+      ],
+      "tmdbStatus": "Returning Series",
+      "firstAirDate": "2015-11-17",
+      "nextAirDate": "2026-10-07",
+      "lastAirDate": "2026-05-13",
+      "voteAverage": 8.267,
+      "popularity": 67.4549,
+      "tmdbGenres": [
+        "Drama"
+      ],
+      "homepage": "http://www.nbc.com/chicago-med",
       "anticipationScore": 10
     },
     {
@@ -1903,8 +1908,8 @@
       ],
       "seasonNumber": 4,
       "premiereDate": "2026-08-06T22:00:00.000Z",
-      "votes": 1578,
-      "rating": 7.5722432136535645,
+      "votes": 1580,
+      "rating": 7.571518898010254,
       "ids": {
         "trakt": 221334,
         "slug": "muertos-s-l",
@@ -1924,7 +1929,7 @@
       "nextAirDate": "2026-08-07",
       "lastAirDate": "2025-08-21",
       "voteAverage": 7.2,
-      "popularity": 5.2857,
+      "popularity": 5.5224,
       "tmdbGenres": [
         "Comedy"
       ],
@@ -1942,8 +1947,8 @@
       ],
       "seasonNumber": 13,
       "premiereDate": "2026-07-24T02:00:00.000Z",
-      "votes": 1560,
-      "rating": 7.887179374694824,
+      "votes": 1562,
+      "rating": 7.88732385635376,
       "ids": {
         "trakt": 58794,
         "slug": "impractical-jokers",
@@ -1963,7 +1968,7 @@
       "nextAirDate": "2026-07-23",
       "lastAirDate": "2026-03-20",
       "voteAverage": 7.9,
-      "popularity": 20.7766,
+      "popularity": 18.8573,
       "tmdbGenres": [
         "Comedy"
       ],
@@ -1982,8 +1987,8 @@
       ],
       "seasonNumber": 26,
       "premiereDate": "2026-10-09T00:00:00.000Z",
-      "votes": 1301,
-      "rating": 7.5734052658081055,
+      "votes": 1305,
+      "rating": 7.580076694488525,
       "ids": {
         "trakt": 548,
         "slug": "law-order",
@@ -2002,7 +2007,7 @@
       "nextAirDate": "2026-10-08",
       "lastAirDate": "2026-05-14",
       "voteAverage": 7.289,
-      "popularity": 206.2536,
+      "popularity": 202.4898,
       "tmdbGenres": [
         "Crime",
         "Drama"
@@ -2025,8 +2030,8 @@
       ],
       "seasonNumber": 2,
       "premiereDate": "2026-07-31T04:00:00.000Z",
-      "votes": 1171,
-      "rating": 6.950469493865967,
+      "votes": 1181,
+      "rating": 6.961896896362305,
       "ids": {
         "trakt": 180698,
         "slug": "batman-caped-crusader",
@@ -2045,7 +2050,7 @@
       "nextAirDate": "2026-07-31",
       "lastAirDate": "2024-08-01",
       "voteAverage": 7.2,
-      "popularity": 15.2362,
+      "popularity": 13.209,
       "tmdbGenres": [
         "Animation",
         "Crime",
@@ -2066,8 +2071,8 @@
       ],
       "seasonNumber": 2,
       "premiereDate": "2026-09-09T10:00:00.000Z",
-      "votes": 1074,
-      "rating": 6.962756156921387,
+      "votes": 1091,
+      "rating": 6.967002868652344,
       "ids": {
         "trakt": 239158,
         "slug": "the-paper-2025",
@@ -2086,7 +2091,7 @@
       "nextAirDate": "2026-09-09",
       "lastAirDate": "2025-09-04",
       "voteAverage": 7.146,
-      "popularity": 9.5943,
+      "popularity": 9.2849,
       "tmdbGenres": [
         "Comedy"
       ],
