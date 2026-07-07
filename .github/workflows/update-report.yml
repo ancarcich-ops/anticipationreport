@@ -14,7 +14,13 @@ jobs:
   refresh:
     runs-on: ubuntu-latest
     steps:
+      # Always operate on `main` — the branch Vercel deploys — regardless of
+      # which branch triggered this run. (Scheduled runs fire from the repo's
+      # default branch, so without this a weekly run could commit elsewhere and
+      # never reach the live site.)
       - uses: actions/checkout@v4
+        with:
+          ref: main
 
       - uses: actions/setup-node@v4
         with:
@@ -40,5 +46,5 @@ jobs:
             echo "No changes to commit."
           else
             git commit -m "Update anticipation report ($(date -u +%Y-%m-%d))"
-            git push
+            git push origin HEAD:main
           fi
